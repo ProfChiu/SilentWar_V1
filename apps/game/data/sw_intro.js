@@ -114,22 +114,22 @@
     sub: 'The United States\' Submarine Campaign Against Imperial Japan, 1941-45',
     original: {
       head: 'The original board game',
-      text: 'Silent War is a solitaire board wargame designed by Brien J. Miller and developed by Stephen Jackson. ' +
-            'It is published by Compass Games, LLC: first edition 2005, rulebook 1.1 © 2012 Compass Games, LLC.',
-      owns: 'The game design, map, counters, charts, rules text and box art belong to Compass Games. ' +
-            'This edition follows their printed rulebook; every rule it applies cites the book\'s paragraph.'
+      text: 'Solitaire board wargame. Designed by Brien J. Miller, developed by Stephen Jackson. ' +
+            'Published by Compass Games, LLC: first edition 2005, rulebook 1.1 © 2012 Compass Games, LLC.',
+      owns: 'Game design, map, counters, charts, rules text and box art: all Compass Games. ' +
+            'Follows their printed rulebook; every rule cites the book\'s paragraph.'
     },
     privacy: {
       head: 'For private use only',
-      text: 'This is an unofficial, non-commercial translation made for study and teaching. It is not affiliated with, ' +
-            'licensed or endorsed by Compass Games. It is not for sale, publication or distribution.',
-      buy: 'To play Silent War, get the board game from Compass Games.'
+      text: 'Unofficial, non-commercial translation for study and teaching. Not affiliated with, licensed or endorsed by ' +
+            'Compass Games. Not for sale, publication or distribution.',
+      buy: 'Want to play Silent War? Get the board game from Compass Games.'
     },
     vibe: {
       head: 'Made with vibe coding',
       text: 'Tools: Photoshop / Visual Studio / Claude AI.'
     },
-    foot: 'Version 1 · September-October 2026 · the first step in this app\'s evolution'
+    foot: 'Version 1 · September-October 2026 · first step in this app\'s evolution'
   };
 
   root.SWIntro = { war: WAR, commands: COMMANDS, why: WHY, thinking: THINKING, teaching: TEACHING, about: ABOUT, title: TITLE };
