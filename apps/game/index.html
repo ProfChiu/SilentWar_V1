@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Silent War — Playboard</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<div id="status-strip"></div>
+<div id="breadcrumb"></div>
+<nav id="viewnav"></nav>
+
+<div id="main">
+  <div id="stage">
+    <section class="view" id="view-theater"></section>
+    <section class="view" id="view-combat"></section>
+    <section class="view" id="view-oparea"></section>
+    <section class="view" id="view-base"></section>
+    <section class="view" id="view-cups"></section>
+    <section class="view" id="view-tenders"></section>
+    <section class="view" id="view-graveyard"></section>
+    <section class="view" id="view-log"></section>
+    <section class="view" id="view-fleet"></section>
+    <!-- Floating palette: controls, where we are in the week, what is happening. -->
+    <div id="palette">
+      <div class="pal-head" id="pal-head"></div>
+      <div id="transport"></div>
+      <div id="pal-guide"></div>
+    </div>
+  </div>
+  <aside id="side"></aside>
+</div>
+
+<div id="tooltip" role="tooltip"></div>
+<div id="overlay" role="dialog" aria-modal="true"></div>
+
+<!-- Pure data. No DOM, no randomness. -->
+<script src="data/sw_map.js"></script>
+<script src="data/sw_layout.js"></script>
+<script src="data/sw_tables.js"></script>
+<script src="data/sw_aac.js"></script>
+<script src="data/sw_ships.js"></script>
+<script src="data/sw_subclasses.js"></script>
+<script src="data/sw_units.js"></script>
+<script src="data/sw_sop.js"></script>
+<script src="data/sw_glossary.js"></script>
+<script src="data/sw_charts.js"></script>
+<script src="data/sw_guide.js"></script>
+<script src="data/sw_lessons.js"></script>
+<script src="data/sw_campaign.js"></script>
+<script src="data/sw_primer.js"></script>
+<script src="data/sw_intro.js"></script>
+
+<!-- Pure rules. No DOM, no Math.random; dice injected. -->
+<script src="rules/sw_dice.js"></script>
+<script src="rules/sw_resolution.js"></script>
+<script src="rules/sw_fog.js"></script>
+<script src="rules/sw_movement.js"></script>
+<script src="rules/sw_search.js"></script>
+<script src="rules/sw_cups.js"></script>
+<script src="rules/sw_combat.js"></script>
+<script src="rules/sw_patrol.js"></script>
+<script src="rules/sw_goal.js"></script>
+<script src="rules/sw_transit.js"></script>
+<script src="rules/sw_war.js"></script>
+<script src="rules/sw_base.js"></script>
+<script src="rules/sw_career.js"></script>
+<script src="rules/sw_teacher.js"></script>
+<script src="rules/sw_fleet.js"></script>
+<script src="rules/sw_tapeplayer.js"></script>
+
+<!-- Demo tape. Pure data. -->
+<script src="tape/sw_tape_spearfish.js"></script>
+
+<!-- The ONLY file permitted to touch the DOM, roll real dice, or show a dialog. -->
+<script src="version.js"></script>
+<script src="swui.js"></script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+{
+ "adjacency": {
+  "aleutians": [
+   "hawaiian",
+   "kurile",
+   "north_pacific"
+  ],
+  "banda_sea": [],
+  "bismarck_sea": [
+   "carolines",
+   "solomons"
+  ],
+  "bonins": [
+   "empire_pacific",
+   "marianas",
+   "marshalls"
+  ],
+  "carolines": [
+   "bismarck_sea",
+   "solomons",
+   "transfer_route"
+  ],
+  "coral_sea": [
+   "solomons"
+  ],
+  "east_china_sea": [
+   "empire_pacific",
+   "marianas",
+   "n_phil_sea",
+   "yellow_sea"
+  ],
+  "empire_pacific": [
+   "bonins",
+   "east_china_sea",
+   "kurile"
+  ],
+  "gilberts": [
+   "solomons"
+  ],
+  "hawaiian": [
+   "aleutians",
+   "north_pacific"
+  ],
+  "java_sea": [],
+  "kurile": [
+   "aleutians",
+   "empire_pacific",
+   "north_pacific"
+  ],
+  "marianas": [
+   "bonins",
+   "east_china_sea",
+   "n_phil_sea"
+  ],
+  "marshalls": [
+   "bonins",
+   "transfer_route"
+  ],
+  "n_phil_sea": [
+   "east_china_sea",
+   "marianas",
+   "s_phil_sea"
+  ],
+  "north_pacific": [
+   "aleutians",
+   "hawaiian",
+   "kurile"
+  ],
+  "s_phil_sea": [
+   "n_phil_sea"
+  ],
+  "scs1": [
+   "scs2"
+  ],
+  "scs2": [
+   "scs1"
+  ],
+  "sea_of_japan": [],
+  "solomons": [
+   "bismarck_sea",
+   "carolines",
+   "coral_sea",
+   "gilberts",
+   "transfer_route"
+  ],
+  "transfer_route": [
+   "carolines",
+   "marshalls",
+   "solomons"
+  ],
+  "yellow_sea": [
+   "east_china_sea"
+  ]
+ },
+ "edges": [
+  [
+   "bismarck_sea",
+   "carolines",
+   147
+  ],
+  [
+   "marianas",
+   "n_phil_sea",
+   98
+  ],
+  [
+   "east_china_sea",
+   "n_phil_sea",
+   92
+  ],
+  [
+   "marshalls",
+   "transfer_route",
+   86
+  ],
+  [
+   "east_china_sea",
+   "yellow_sea",
+   79
+  ],
+  [
+   "scs1",
+   "scs2",
+   54
+  ],
+  [
+   "aleutians",
+   "kurile",
+   33
+  ],
+  [
+   "hawaiian",
+   "north_pacific",
+   30
+  ],
+  [
+   "bismarck_sea",
+   "solomons",
+   30
+  ],
+  [
+   "aleutians",
+   "hawaiian",
+   28
+  ],
+  [
+   "gilberts",
+   "solomons",
+   28
+  ],
+  [
+   "empire_pacific",
+   "kurile",
+   27
+  ],
+  [
+   "bonins",
+   "empire_pacific",
+   27
+  ],
+  [
+   "kurile",
+   "north_pacific",
+   26
+  ],
+  [
+   "bonins",
+   "marshalls",
+   26
+  ],
+  [
+   "east_china_sea",
+   "marianas",
+   26
+  ],
+  [
+   "bonins",
+   "marianas",
+   26
+  ],
+  [
+   "carolines",
+   "transfer_route",
+   26
+  ],
+  [
+   "solomons",
+   "transfer_route",
+   26
+  ],
+  [
+   "coral_sea",
+   "solomons",
+   26
+  ],
+  [
+   "aleutians",
+   "north_pacific",
+   25
+  ],
+  [
+   "east_china_sea",
+   "empire_pacific",
+   25
+  ],
+  [
+   "n_phil_sea",
+   "s_phil_sea",
+   25
+  ],
+  [
+   "carolines",
+   "solomons",
+   25
+  ]
+ ],
+ "rejected": []
+}

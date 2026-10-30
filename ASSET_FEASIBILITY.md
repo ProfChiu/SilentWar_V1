@@ -1,0 +1,196 @@
+# Silent War — Source Asset Feasibility for a Digital Solitaire Implementation
+
+**Date:** 2026-08-22
+**Question asked:** do we have enough source images / maps / data to build a digital single-player Silent War?
+**Verdict: Yes.** Every table the rules engine needs exists in `Source/` at legible resolution. Four gaps
+remain; only one is a true unknown.
+
+> This supersedes parts of `PHASE1_ASSET_REVIEW.md` §3.3, which concluded that per-submarine ratings were
+> missing. **That was wrong** — the Vassal counter art has the ratings printed on it (see §3 below).
+
+---
+
+## 1. What was verified this session (not assumed)
+
+| Asset | Verification | Result |
+|---|---|---|
+| `images/SW_map_final-50.png` | Cropped at native 4342×3300 | Area Activity Charts legible cell-by-cell |
+| Map left panel | Native crop | Search & Contact, **Contact Table**, **Engagement Table** fully readable |
+| Map right/bottom | Overview at 1500px | Transit Event Table, Endurance Table, Damage Table, all 5 Base Displays, tracks — all present |
+| `Charts/page_051` (Combat Tables) | Rendered | **ART, Counterattack, Transit Event, Endurance, Search & Contact, Combat Events index** — all readable |
+| `Charts/page_050` (Charts & Tables) | Rendered | **War Period Modification, War Period Transition, Torpedo Improvement, Enemy Submarines [30.3]** — all readable |
+| `Charts/page_063` (War Mix) | Rendered | Full cup composition, all 4 War Periods + 1932, every ship row — readable |
+| `Charts/page_064` (ULTRA) | Rendered | Full 4×10 area grid — readable |
+| `Charts/page_053` (Sense of Scale) | Rendered | Complete class roster with years |
+| Counter GIFs | Upscaled and read | **Ratings are printed on the art** (see §3) |
+| `AdditionalReference/Silent_War_ESCENARIOS.pdf` | `pdftotext` | Text layer extracts cleanly; contains the Master Submarine Reinforcement List |
+
+Rulebook v1.1 is now converted to `RULES.md` (87 KB vs 1.2 MB PDF).
+
+---
+
+## 2. The map is the board *and* most of the rules engine
+
+23 OpAreas, each with its own printed Area Activity Chart (die roll 0–9 × War Period W1–W4):
+
+Sea of Japan · Yellow Sea · East China Sea · Empire Pacific · Kurile Islands · Aleutian Islands ·
+North Pacific · Bonins · Hawaiian Islands · Marianas · Marshall Islands · Transfer Route · Carolines ·
+South China Sea 1 · South China Sea 2 · North Philippine Sea · South Philippine Sea · Java Sea ·
+Banda Sea · Bismarck Sea · Solomons · Gilbert Islands · Coral Sea
+
+~17 Special Mission Zones (small circles, no AAC): Inland Sea & Tokyo Bay, Okinawa, Formosa, Lingayen Gulf,
+Davao/Leyte Gulf, Makassar Strait, Molucca Strait, Surabaya, Mios Woendi, Palau, Truk, Saipan, Guam,
+Wake Island, Midway Island, Majuro, Guadalcanal. Six carry anchors (forward-base capable).
+
+5 Base Displays + a West Coast box. Two OpAreas carry printed special rules
+("Results will be a TF only, use column D on engagement table" — Hawaiian Islands and Transfer Route;
+"War Period 3 Only, see Rule 30.1" — North Philippine Sea).
+
+**Key practical point:** the 920 AAC cells (23 charts × 4 rows × 10 columns) do **not** need hand-transcription.
+The cells are flat-colour blocks on a fixed grid — once each chart's origin and cell pitch are recorded, the
+colours can be **pixel-sampled straight out of the PNG** into JSON. That converts the single largest data-entry
+job in the project into a script.
+
+---
+
+## 3. Counter art carries its own data
+
+**Submarines — 39 patrol-side + 40 transit-side class images at 195×100.** The ratings are baked into the art:
+
+- Patrol side (e.g. `gato.gif`): `7•4•4` = Attack•Defense•Tactical, blue circle `8` = Range,
+  green letter `A` = Endurance rating (the A/B/C/D columns of the Endurance Table).
+- Transit side (e.g. `gato_transit.gif`): black `5` = Readiness, yellow `2` = Speed, blue `8` = Range.
+
+Classes present: S1, S2, S3, New S1, New S2, B, Argonaut, Narwhal, Dolphin, Cachalot, P1, P2, P3, T, Gato,
+Balao, Tench, Scheme 17, SSN21 — plus Dutch (K-VIII, K-XI, K-XIV, O-16, O-19, O-21), British (S2, T2, L4),
+Italian (Calvi), French (Surcouf), German (Type IXC40, IXD2, XXI, Type 5), and Japanese (KD4, KD7, K6, C1)
+for Sub-vs-Sub. This matches the Crash Dive Ratings table in `RULES.md` [IJN 5.2] exactly.
+
+So per-class stats are a **~38-counter read**, not a research project.
+
+**Japanese ships — 47 counter types, and the stats are in the filenames.**
+Scheme: `<type><tons>t<defense><asw>`, with `half` for ½ and an optional `(name)` suffix.
+
+| File | Decodes to | Confirmed against art |
+|---|---|---|
+| `m10t30.gif` | M, 10k tons, def 3, ASW 0 | ✅ |
+| `dd1t6half.gif` | DD, 1k tons, def 6, ASW ½ | ✅ |
+| `de1t82.gif` | DE, 1k tons, def 8, ASW 2 (entry 3/44) | ✅ |
+| `bb68t110(yamato).gif` | BB, 68k tons, def 11, ASW 0 (entry 5/42) | ✅ |
+| `cv43t50(kaga).gif` | CV, 43k tons, def 5, ASW 0 | ✅ |
+
+*(Where defense is 2 digits the string is 3 chars — take the last char as ASW.)*
+The whole Japanese catalogue can be generated by a filename parser and cross-checked against the War Mix Table
+row labels. Entry dates for the nine dated ships are printed on the counters.
+
+**Markers:** TDC −3…+3, Spotted, Damaged (×2), RTB, ULTRA, Combat Event, battle/merchant flags, 24 Super
+Skippers (×2 sides), wolfpack colours, all track tallies, cup icons — complete.
+
+---
+
+## 4. Gaps
+
+| # | Gap | Severity | Resolution |
+|---|---|---|---|
+| 1 | ~~TDC counter mix multiplicity~~ | **RESOLVED 2026-08-22** | Recovered from the Vassal module's `buildFile`. See §7. |
+| 2 | **Boat name → class mapping** for ~200 named submarines. The reinforcement list gives names, months, and bases; the class art gives ratings; nothing in `Source/` joins them. | Medium, tedious | Derivable from entry date + historical class membership, cross-checked against the year labels on the Sense of Scale chart ('35 P Class Group 1/2, '39 T Class, '41 Gato, '42 Balao, '44 Tench…). Do it once into a JSON table. |
+| 3 | **OpArea / SMZ / Base adjacency graph.** Drawn as light-blue routes on the map bitmap; not data anywhere. | Medium | Trace by hand from the map (~45 nodes). One afternoon, done once. |
+| 4 | **Scenario setups and victory conditions are Spanish-only** (`Silent_War_ESCENARIOS.pdf`). No English scenario book in `Source/`. | Low | Text layer extracts cleanly; boat names, dates, tonnages and area names are language-neutral, so translation is mechanical. |
+
+Nothing here blocks a start. Gaps 2–4 are transcription work, and the Vassal `buildFile` (see §7) is likely to
+shrink both #2 and #3 substantially.
+
+---
+
+## 5. What this means for build order
+
+The **single-sub patrol** slice locked in Phase 1 needs, in data terms:
+
+1. AAC for the chosen OpArea — *pixel-sample from map* ✅
+2. Contact + Engagement tables — *transcribe from map panel, ~60 cells* ✅
+3. War Mix for one War Period — *transcribe one column group from `page_063`* ✅
+4. Ship catalogue — *parse from filenames* ✅
+5. ART + Counterattack + Endurance + Transit Event — *transcribe from `page_051`* ✅
+6. One submarine's ratings — *read from class art* ✅
+7. TDC pool — ⚠️ gap #1, use a tunable constant
+8. Combat Display slots — `combat_display.png` (1620×1218), columns A–D with TDC + target slots ✅
+
+Every item is available today. **Phase 2 (playboard + chart popups) and the
+patrol vertical slice can both proceed without acquiring anything new.**
+
+---
+
+## 6. Licensing
+
+`Source/` is a Vassal module asset pack (v0.96) distributed under licence from Compass Games; its own help file
+states the user must personally own the physical game. Keep the build local/personal-use. Do not publish a
+public web module without Compass permission.
+
+
+---
+
+## 7. The Vassal module — recovered 2026-08-22
+
+`Silent_War.vmod` (v0.96, 9.5 MB) was found in `~/Downloads` and copied to `Source/Silent_War.vmod`.
+It is a zip; `buildFile` inside is the module definition and is a **primary data source**, not just art.
+
+### TDC pool — RESOLVED
+
+The pool is defined five times, once per setup (`W1_TDC`, `W2_TDC`, `W3_TDC`, `W4_TDC`, `32_TDC`).
+**All five are identical**, so the mix does not vary by War Period — it is one constant.
+
+| Value | −3 | −2 | −1 | 0 | +1 | +2 | +3 | Total |
+|---|---|---|---|---|---|---|---|---|
+| Count | 2 | 4 | 4 | 4 | 4 | 4 | 2 | **24** |
+| Draw % | 8.3 | 16.7 | 16.7 | 16.7 | 16.7 | 16.7 | 8.3 | 100 |
+
+- Symmetric, **mean exactly 0**, SD ≈ 1.78.
+- **Not** a bell curve — flat across −2…+2 with the extremes at half weight.
+- Helps / neutral / hurts = 41.7% / 16.7% / 41.7%.
+- Draw is **without replacement within a combat round**; all markers return to the pool at Clean-Up [14.8].
+- Re-attack [14.4] subtracts 1 from every marker except −3, making the effective re-attack pool
+  `−3×6, −2×4, −1×4, 0×4, +1×4, +2×2` — mean ≈ **−0.92**, nearly a full point better. That is the rule
+  working as intended and is a good engine sanity check.
+
+**Confidence: high, not absolute.** This is the module author's data, i.e. a secondary source — but the module
+was produced under licence from Compass Games, its help file documents a beta-test and data-verification pass,
+and the figures are consistent across all five setups. A spot-check against the physical countersheet would
+make it definitive.
+
+### Correction — Regions are NOT the OpArea graph
+
+An earlier note in this file speculated the 82 Regions would shrink the adjacency gap. **That was wrong.**
+All 82 are accounted for: 30 on the main map (calendar, year, week, War Period and Torpedo Value track boxes)
+and 52 on the Combat Display. **None are OpAreas.** Vassal does not model OpArea adjacency at all — players
+drag counters freely over the map image and enforce legality themselves. **Gap #3 remains fully open** and
+must still be traced by hand.
+
+### Also recovered
+
+| Item | Result | File |
+|---|---|---|
+| **Boat → class → entry date** | **Gap #2 SOLVED.** 309 submarine pieces, each with an explicit class prototype and entry date (101 Balao, 72 Gato, 19 S1, 12 T, 11 Tench, 11 S2_Br, 10 New_S2, 10 T2_Br, …) | `Source/extracted/submarines.json` |
+| **Window/UI layout** | 9 windows, board images, hotkeys, zones, draw piles, and pixel-accurate slot geometry | `Source/extracted/vassal_layout.json` |
+| **Combat Display geometry** | 8 submarine slots (2 per column) + 22 target slots + 22 TDC slots, at pixel coordinates on `combat_display.png` | same |
+| **TDC pool** | 24 markers, mix as above | `Source/extracted/tdc_pool.json` |
+| **Scenario setups** | 17 PredefinedSetups with `.vsav` start files encoding actual counter placement | inside the `.vmod` |
+
+Scenario `.vsav` files partially address gap #4: the **setups** are recoverable from the module, so only the
+victory conditions and scenario special rules still need translating from the Spanish book.
+
+### The 9 windows — UI first pass
+
+| Vassal window | Hotkey | Board image |
+|---|---|---|
+| Pacific (main map) | — | `SW_map_final-50.png` |
+| Sub Tenders | F3 | `sub_tender_display.png` |
+| Combat Display | F4 | `combat_display.png` |
+| War Period 1 Cups | F5 | `cups_w1.gif` |
+| War Period 2 Cups | F6 | `cups_w2.gif` |
+| War Period 3 Cups | F7 | `cups_w3.gif` |
+| War Period 4 Cups | F8 | `cups_w4.gif` |
+| 1932 Scenario Cups | F9 | `cups_32.gif` |
+| Submarine Graveyard | — | `sunk.jpg` |
+
+Plus a persistent Chatter (message log), a Notes window, a 1D10 toolbar die button, and a counter palette.
+Base displays are **Zones on the main map**, not separate windows.

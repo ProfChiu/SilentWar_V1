@@ -1,0 +1,2002 @@
+[
+ {
+  "seed": 1000,
+  "outcome": "lost",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 24,
+  "draws": 211,
+  "hash": "b782e15d"
+ },
+ {
+  "seed": 1001,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 17,
+  "draws": 159,
+  "hash": "0cd652d2"
+ },
+ {
+  "seed": 1002,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 12,
+  "draws": 159,
+  "hash": "f3909abe"
+ },
+ {
+  "seed": 1003,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 13,
+  "draws": 154,
+  "hash": "58237ace"
+ },
+ {
+  "seed": 1004,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 142,
+  "hash": "b05dd33c"
+ },
+ {
+  "seed": 1005,
+  "outcome": "lost",
+  "turns": 1,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 9,
+  "draws": 153,
+  "hash": "78ef1864"
+ },
+ {
+  "seed": 1006,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 17,
+  "draws": 196,
+  "hash": "ba77ab94"
+ },
+ {
+  "seed": 1007,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 160,
+  "hash": "7e634b87"
+ },
+ {
+  "seed": 1008,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 1,
+  "draws": 1,
+  "hash": "cf7536f7"
+ },
+ {
+  "seed": 1009,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 173,
+  "hash": "996e43e0"
+ },
+ {
+  "seed": 1010,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 10,
+  "draws": 156,
+  "hash": "2d976717"
+ },
+ {
+  "seed": 1011,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 0,
+  "draws": 0,
+  "hash": "811c9dc5"
+ },
+ {
+  "seed": 1012,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 9,
+  "draws": 150,
+  "hash": "7c60022f"
+ },
+ {
+  "seed": 1013,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 2,
+  "draws": 3,
+  "hash": "1752585e"
+ },
+ {
+  "seed": 1014,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 2,
+  "draws": 2,
+  "hash": "bfa0947a"
+ },
+ {
+  "seed": 1015,
+  "outcome": "returned",
+  "turns": 9,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 35,
+  "draws": 252,
+  "hash": "c598e5c4"
+ },
+ {
+  "seed": 1016,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 170,
+  "hash": "53e340b1"
+ },
+ {
+  "seed": 1017,
+  "outcome": "returned",
+  "turns": 6,
+  "shipsSunk": 1,
+  "tonnageSunk": 3,
+  "rolls": 26,
+  "draws": 196,
+  "hash": "bd95d10a"
+ },
+ {
+  "seed": 1018,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 174,
+  "hash": "03ef4fa7"
+ },
+ {
+  "seed": 1019,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 2,
+  "draws": 3,
+  "hash": "aa6038bc"
+ },
+ {
+  "seed": 1020,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 15,
+  "draws": 190,
+  "hash": "1153d7e4"
+ },
+ {
+  "seed": 1021,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 29,
+  "draws": 262,
+  "hash": "5563420a"
+ },
+ {
+  "seed": 1022,
+  "outcome": "lost",
+  "turns": 1,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 10,
+  "draws": 169,
+  "hash": "f773c38c"
+ },
+ {
+  "seed": 1023,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 6,
+  "draws": 144,
+  "hash": "8856e1c4"
+ },
+ {
+  "seed": 1024,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 2,
+  "tonnageSunk": 8,
+  "rolls": 30,
+  "draws": 196,
+  "hash": "2d25b5c4"
+ },
+ {
+  "seed": 1025,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 12,
+  "draws": 179,
+  "hash": "29fbedf5"
+ },
+ {
+  "seed": 1026,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 0,
+  "draws": 0,
+  "hash": "811c9dc5"
+ },
+ {
+  "seed": 1027,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 10,
+  "draws": 167,
+  "hash": "a0a38bc8"
+ },
+ {
+  "seed": 1028,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 2,
+  "draws": 3,
+  "hash": "69007d54"
+ },
+ {
+  "seed": 1029,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 142,
+  "hash": "8cd7fb95"
+ },
+ {
+  "seed": 1030,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 7,
+  "draws": 135,
+  "hash": "75da5706"
+ },
+ {
+  "seed": 1031,
+  "outcome": "returned",
+  "turns": 6,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 29,
+  "draws": 255,
+  "hash": "e9a04d25"
+ },
+ {
+  "seed": 1032,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 14,
+  "draws": 183,
+  "hash": "256978ba"
+ },
+ {
+  "seed": 1033,
+  "outcome": "returned",
+  "turns": 8,
+  "shipsSunk": 1,
+  "tonnageSunk": 5,
+  "rolls": 30,
+  "draws": 232,
+  "hash": "1681fd01"
+ },
+ {
+  "seed": 1034,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 18,
+  "draws": 203,
+  "hash": "61c6f6e5"
+ },
+ {
+  "seed": 1035,
+  "outcome": "lost",
+  "turns": 1,
+  "shipsSunk": 1,
+  "tonnageSunk": 3,
+  "rolls": 10,
+  "draws": 155,
+  "hash": "09f26f43"
+ },
+ {
+  "seed": 1036,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 11,
+  "draws": 180,
+  "hash": "b16f8a2f"
+ },
+ {
+  "seed": 1037,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 12,
+  "draws": 158,
+  "hash": "0125c0f4"
+ },
+ {
+  "seed": 1038,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 2,
+  "draws": 3,
+  "hash": "69007d54"
+ },
+ {
+  "seed": 1039,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 10,
+  "draws": 162,
+  "hash": "fa1f58c8"
+ },
+ {
+  "seed": 1040,
+  "outcome": "returned",
+  "turns": 7,
+  "shipsSunk": 1,
+  "tonnageSunk": 3,
+  "rolls": 44,
+  "draws": 301,
+  "hash": "bc7ab878"
+ },
+ {
+  "seed": 1041,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 12,
+  "draws": 145,
+  "hash": "2d8b58bd"
+ },
+ {
+  "seed": 1042,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 5,
+  "draws": 147,
+  "hash": "1dad29aa"
+ },
+ {
+  "seed": 1043,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 164,
+  "hash": "72ac79d2"
+ },
+ {
+  "seed": 1044,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 5,
+  "draws": 126,
+  "hash": "ee44aa4b"
+ },
+ {
+  "seed": 1045,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 13,
+  "draws": 145,
+  "hash": "bada9310"
+ },
+ {
+  "seed": 1046,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 12,
+  "draws": 182,
+  "hash": "a96fff22"
+ },
+ {
+  "seed": 1047,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 7,
+  "draws": 157,
+  "hash": "1f772b1c"
+ },
+ {
+  "seed": 1048,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 142,
+  "hash": "58556db2"
+ },
+ {
+  "seed": 1049,
+  "outcome": "returned",
+  "turns": 6,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 26,
+  "draws": 225,
+  "hash": "9c0070f2"
+ },
+ {
+  "seed": 1050,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 23,
+  "draws": 232,
+  "hash": "48e45257"
+ },
+ {
+  "seed": 1051,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 7,
+  "draws": 144,
+  "hash": "b0c28293"
+ },
+ {
+  "seed": 1052,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 13,
+  "draws": 164,
+  "hash": "e6a97a16"
+ },
+ {
+  "seed": 1053,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 9,
+  "draws": 148,
+  "hash": "088c5c2a"
+ },
+ {
+  "seed": 1054,
+  "outcome": "lost",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 25,
+  "draws": 231,
+  "hash": "1247134c"
+ },
+ {
+  "seed": 1055,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 1,
+  "tonnageSunk": 5,
+  "rolls": 9,
+  "draws": 141,
+  "hash": "e8c38ae2"
+ },
+ {
+  "seed": 1056,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 20,
+  "draws": 197,
+  "hash": "1fb9edc7"
+ },
+ {
+  "seed": 1057,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 156,
+  "hash": "5ea0f51b"
+ },
+ {
+  "seed": 1058,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 7,
+  "draws": 156,
+  "hash": "af2eb342"
+ },
+ {
+  "seed": 1059,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 13,
+  "draws": 152,
+  "hash": "9d86ba0c"
+ },
+ {
+  "seed": 1060,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 20,
+  "draws": 195,
+  "hash": "738e01f7"
+ },
+ {
+  "seed": 1061,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 1,
+  "tonnageSunk": 5,
+  "rolls": 7,
+  "draws": 175,
+  "hash": "330d32dd"
+ },
+ {
+  "seed": 1062,
+  "outcome": "lost",
+  "turns": 2,
+  "shipsSunk": 1,
+  "tonnageSunk": 1,
+  "rolls": 12,
+  "draws": 186,
+  "hash": "e039f379"
+ },
+ {
+  "seed": 1063,
+  "outcome": "returned",
+  "turns": 6,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 27,
+  "draws": 219,
+  "hash": "0bce26c5"
+ },
+ {
+  "seed": 1064,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 37,
+  "draws": 273,
+  "hash": "decd7c87"
+ },
+ {
+  "seed": 1065,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 28,
+  "draws": 212,
+  "hash": "7f468b36"
+ },
+ {
+  "seed": 1066,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 0,
+  "draws": 0,
+  "hash": "811c9dc5"
+ },
+ {
+  "seed": 1067,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 9,
+  "draws": 168,
+  "hash": "8f45c126"
+ },
+ {
+  "seed": 1068,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 11,
+  "draws": 168,
+  "hash": "1701b22c"
+ },
+ {
+  "seed": 1069,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 19,
+  "draws": 225,
+  "hash": "fb83e70e"
+ },
+ {
+  "seed": 1070,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 14,
+  "draws": 177,
+  "hash": "c18c9e2c"
+ },
+ {
+  "seed": 1071,
+  "outcome": "returned",
+  "turns": 6,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 29,
+  "draws": 257,
+  "hash": "622161b7"
+ },
+ {
+  "seed": 1072,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 0,
+  "draws": 0,
+  "hash": "811c9dc5"
+ },
+ {
+  "seed": 1073,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 1,
+  "tonnageSunk": 20,
+  "rolls": 7,
+  "draws": 127,
+  "hash": "e2100636"
+ },
+ {
+  "seed": 1074,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 1,
+  "tonnageSunk": 3,
+  "rolls": 16,
+  "draws": 173,
+  "hash": "c714fdb3"
+ },
+ {
+  "seed": 1075,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 23,
+  "draws": 208,
+  "hash": "c88adc5c"
+ },
+ {
+  "seed": 1076,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 138,
+  "hash": "b8567ecd"
+ },
+ {
+  "seed": 1077,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 3,
+  "tonnageSunk": 11,
+  "rolls": 32,
+  "draws": 232,
+  "hash": "ec8b8c78"
+ },
+ {
+  "seed": 1078,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 161,
+  "hash": "69453adb"
+ },
+ {
+  "seed": 1079,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 11,
+  "draws": 162,
+  "hash": "ad201070"
+ },
+ {
+  "seed": 1080,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 18,
+  "draws": 229,
+  "hash": "bd825276"
+ },
+ {
+  "seed": 1081,
+  "outcome": "returned",
+  "turns": 7,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 9,
+  "hash": "5acd4bae"
+ },
+ {
+  "seed": 1082,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 21,
+  "draws": 198,
+  "hash": "f2b50e32"
+ },
+ {
+  "seed": 1083,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 18,
+  "draws": 174,
+  "hash": "3f1ad459"
+ },
+ {
+  "seed": 1084,
+  "outcome": "returned",
+  "turns": 6,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 43,
+  "draws": 293,
+  "hash": "368b722b"
+ },
+ {
+  "seed": 1085,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 7,
+  "draws": 148,
+  "hash": "ca373903"
+ },
+ {
+  "seed": 1086,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 11,
+  "draws": 148,
+  "hash": "94eb03a2"
+ },
+ {
+  "seed": 1087,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 1,
+  "tonnageSunk": 1,
+  "rolls": 15,
+  "draws": 190,
+  "hash": "4f8d1bc0"
+ },
+ {
+  "seed": 1088,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 9,
+  "draws": 152,
+  "hash": "f032b487"
+ },
+ {
+  "seed": 1089,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 11,
+  "draws": 153,
+  "hash": "0c5ebedb"
+ },
+ {
+  "seed": 1090,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 1,
+  "tonnageSunk": 1,
+  "rolls": 12,
+  "draws": 147,
+  "hash": "c9d5c748"
+ },
+ {
+  "seed": 1091,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 5,
+  "draws": 134,
+  "hash": "4af5542d"
+ },
+ {
+  "seed": 1092,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 153,
+  "hash": "0339b0e8"
+ },
+ {
+  "seed": 1093,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 2,
+  "draws": 2,
+  "hash": "d4c9f88c"
+ },
+ {
+  "seed": 1094,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 1,
+  "tonnageSunk": 1,
+  "rolls": 16,
+  "draws": 174,
+  "hash": "37a24d2a"
+ },
+ {
+  "seed": 1095,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 7,
+  "draws": 166,
+  "hash": "4c5591a0"
+ },
+ {
+  "seed": 1096,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 153,
+  "hash": "e841c0a7"
+ },
+ {
+  "seed": 1097,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 30,
+  "draws": 275,
+  "hash": "7ba621b9"
+ },
+ {
+  "seed": 1098,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 2,
+  "draws": 3,
+  "hash": "1752585e"
+ },
+ {
+  "seed": 1099,
+  "outcome": "returned",
+  "turns": 6,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 21,
+  "draws": 248,
+  "hash": "8d959081"
+ },
+ {
+  "seed": 1100,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 1,
+  "draws": 1,
+  "hash": "cf7536f7"
+ },
+ {
+  "seed": 1101,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 25,
+  "draws": 215,
+  "hash": "f85de9c5"
+ },
+ {
+  "seed": 1102,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 152,
+  "hash": "1ce7a789"
+ },
+ {
+  "seed": 1103,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 1,
+  "tonnageSunk": 1,
+  "rolls": 20,
+  "draws": 187,
+  "hash": "33210e00"
+ },
+ {
+  "seed": 1104,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 5,
+  "draws": 8,
+  "hash": "f189dc82"
+ },
+ {
+  "seed": 1105,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 14,
+  "draws": 171,
+  "hash": "cbbd1b56"
+ },
+ {
+  "seed": 1106,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 4,
+  "draws": 5,
+  "hash": "46269cdf"
+ },
+ {
+  "seed": 1107,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 17,
+  "draws": 164,
+  "hash": "5a00cbaa"
+ },
+ {
+  "seed": 1108,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 1,
+  "draws": 1,
+  "hash": "07bb01b7"
+ },
+ {
+  "seed": 1109,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 11,
+  "draws": 157,
+  "hash": "d0d64d92"
+ },
+ {
+  "seed": 1110,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 176,
+  "hash": "5b9b617a"
+ },
+ {
+  "seed": 1111,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 11,
+  "draws": 171,
+  "hash": "c462eafe"
+ },
+ {
+  "seed": 1112,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 2,
+  "draws": 3,
+  "hash": "fa814e5e"
+ },
+ {
+  "seed": 1113,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 1,
+  "draws": 1,
+  "hash": "07bb01b7"
+ },
+ {
+  "seed": 1114,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 0,
+  "draws": 0,
+  "hash": "811c9dc5"
+ },
+ {
+  "seed": 1115,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 15,
+  "draws": 181,
+  "hash": "0a6dc195"
+ },
+ {
+  "seed": 1116,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 15,
+  "draws": 179,
+  "hash": "cee310ff"
+ },
+ {
+  "seed": 1117,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 163,
+  "hash": "5892ea67"
+ },
+ {
+  "seed": 1118,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 7,
+  "draws": 149,
+  "hash": "10cfe438"
+ },
+ {
+  "seed": 1119,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 11,
+  "draws": 166,
+  "hash": "22605b32"
+ },
+ {
+  "seed": 1120,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 6,
+  "draws": 154,
+  "hash": "4d926aba"
+ },
+ {
+  "seed": 1121,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 1,
+  "tonnageSunk": 5,
+  "rolls": 14,
+  "draws": 152,
+  "hash": "4cebafb2"
+ },
+ {
+  "seed": 1122,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 9,
+  "draws": 147,
+  "hash": "1c351a97"
+ },
+ {
+  "seed": 1123,
+  "outcome": "returned",
+  "turns": 8,
+  "shipsSunk": 1,
+  "tonnageSunk": 1,
+  "rolls": 42,
+  "draws": 263,
+  "hash": "2f663eb7"
+ },
+ {
+  "seed": 1124,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 12,
+  "draws": 187,
+  "hash": "dcb973f8"
+ },
+ {
+  "seed": 1125,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 17,
+  "draws": 161,
+  "hash": "6ee5c5d6"
+ },
+ {
+  "seed": 1126,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 29,
+  "draws": 207,
+  "hash": "84f62f4a"
+ },
+ {
+  "seed": 1127,
+  "outcome": "returned",
+  "turns": 8,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 56,
+  "draws": 354,
+  "hash": "d363cd5a"
+ },
+ {
+  "seed": 1128,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 20,
+  "draws": 215,
+  "hash": "d26961fc"
+ },
+ {
+  "seed": 1129,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 9,
+  "draws": 147,
+  "hash": "3cebd759"
+ },
+ {
+  "seed": 1130,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 19,
+  "draws": 192,
+  "hash": "ddd77764"
+ },
+ {
+  "seed": 1131,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 4,
+  "tonnageSunk": 13,
+  "rolls": 31,
+  "draws": 228,
+  "hash": "c5480247"
+ },
+ {
+  "seed": 1132,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 6,
+  "draws": 166,
+  "hash": "19202c32"
+ },
+ {
+  "seed": 1133,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 1,
+  "tonnageSunk": 1,
+  "rolls": 12,
+  "draws": 162,
+  "hash": "0f7f7156"
+ },
+ {
+  "seed": 1134,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 10,
+  "draws": 172,
+  "hash": "fab83340"
+ },
+ {
+  "seed": 1135,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 14,
+  "draws": 212,
+  "hash": "a78f5977"
+ },
+ {
+  "seed": 1136,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 2,
+  "tonnageSunk": 5,
+  "rolls": 22,
+  "draws": 188,
+  "hash": "8988f6ce"
+ },
+ {
+  "seed": 1137,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 7,
+  "draws": 164,
+  "hash": "7d744469"
+ },
+ {
+  "seed": 1138,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 29,
+  "draws": 242,
+  "hash": "37249e37"
+ },
+ {
+  "seed": 1139,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 9,
+  "draws": 146,
+  "hash": "125f72da"
+ },
+ {
+  "seed": 1140,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 7,
+  "draws": 160,
+  "hash": "f9444c9c"
+ },
+ {
+  "seed": 1141,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 19,
+  "draws": 208,
+  "hash": "c272ea3c"
+ },
+ {
+  "seed": 1142,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 19,
+  "draws": 187,
+  "hash": "5cbbb8be"
+ },
+ {
+  "seed": 1143,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 7,
+  "draws": 130,
+  "hash": "62fff533"
+ },
+ {
+  "seed": 1144,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 135,
+  "hash": "5a3dbb5c"
+ },
+ {
+  "seed": 1145,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 7,
+  "draws": 139,
+  "hash": "1b7d5e48"
+ },
+ {
+  "seed": 1146,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 1,
+  "tonnageSunk": 2,
+  "rolls": 10,
+  "draws": 167,
+  "hash": "6975c1a8"
+ },
+ {
+  "seed": 1147,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 7,
+  "draws": 172,
+  "hash": "eb9e80da"
+ },
+ {
+  "seed": 1148,
+  "outcome": "returned",
+  "turns": 6,
+  "shipsSunk": 1,
+  "tonnageSunk": 15,
+  "rolls": 29,
+  "draws": 243,
+  "hash": "6859a8a1"
+ },
+ {
+  "seed": 1149,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 1,
+  "draws": 1,
+  "hash": "78526ea1"
+ },
+ {
+  "seed": 1150,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 23,
+  "draws": 194,
+  "hash": "dbccac55"
+ },
+ {
+  "seed": 1151,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 1,
+  "draws": 1,
+  "hash": "8c202a45"
+ },
+ {
+  "seed": 1152,
+  "outcome": "returned",
+  "turns": 6,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 33,
+  "draws": 217,
+  "hash": "536acaa0"
+ },
+ {
+  "seed": 1153,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 14,
+  "draws": 188,
+  "hash": "c608c6c6"
+ },
+ {
+  "seed": 1154,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 7,
+  "draws": 166,
+  "hash": "fc555c91"
+ },
+ {
+  "seed": 1155,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 15,
+  "draws": 165,
+  "hash": "814fb033"
+ },
+ {
+  "seed": 1156,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 14,
+  "draws": 185,
+  "hash": "586c14c9"
+ },
+ {
+  "seed": 1157,
+  "outcome": "returned",
+  "turns": 6,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 16,
+  "draws": 147,
+  "hash": "e0158336"
+ },
+ {
+  "seed": 1158,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 0,
+  "draws": 0,
+  "hash": "811c9dc5"
+ },
+ {
+  "seed": 1159,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 32,
+  "draws": 261,
+  "hash": "26ee3f43"
+ },
+ {
+  "seed": 1160,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 8,
+  "draws": 177,
+  "hash": "b9f260dc"
+ },
+ {
+  "seed": 1161,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 6,
+  "draws": 154,
+  "hash": "d214f0a9"
+ },
+ {
+  "seed": 1162,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 9,
+  "draws": 159,
+  "hash": "24bdea13"
+ },
+ {
+  "seed": 1163,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 6,
+  "draws": 155,
+  "hash": "e094f191"
+ },
+ {
+  "seed": 1164,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 29,
+  "draws": 235,
+  "hash": "7e42a16e"
+ },
+ {
+  "seed": 1165,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 2,
+  "draws": 3,
+  "hash": "1f4fb82a"
+ },
+ {
+  "seed": 1166,
+  "outcome": "returned",
+  "turns": 6,
+  "shipsSunk": 1,
+  "tonnageSunk": 5,
+  "rolls": 27,
+  "draws": 209,
+  "hash": "55319301"
+ },
+ {
+  "seed": 1167,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 9,
+  "draws": 174,
+  "hash": "d071974d"
+ },
+ {
+  "seed": 1168,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 2,
+  "draws": 3,
+  "hash": "aa6038bc"
+ },
+ {
+  "seed": 1169,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 13,
+  "draws": 157,
+  "hash": "7d1ac674"
+ },
+ {
+  "seed": 1170,
+  "outcome": "returned",
+  "turns": 6,
+  "shipsSunk": 1,
+  "tonnageSunk": 5,
+  "rolls": 33,
+  "draws": 265,
+  "hash": "ec785d8f"
+ },
+ {
+  "seed": 1171,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 12,
+  "draws": 189,
+  "hash": "f9b4e85b"
+ },
+ {
+  "seed": 1172,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 2,
+  "draws": 3,
+  "hash": "aa6038bc"
+ },
+ {
+  "seed": 1173,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 9,
+  "draws": 159,
+  "hash": "bfd03001"
+ },
+ {
+  "seed": 1174,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 12,
+  "draws": 154,
+  "hash": "f5d45248"
+ },
+ {
+  "seed": 1175,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 10,
+  "draws": 145,
+  "hash": "4677eeed"
+ },
+ {
+  "seed": 1176,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 26,
+  "draws": 239,
+  "hash": "ef73f7c4"
+ },
+ {
+  "seed": 1177,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 7,
+  "draws": 135,
+  "hash": "d7bf2a77"
+ },
+ {
+  "seed": 1178,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 15,
+  "draws": 188,
+  "hash": "a70d917a"
+ },
+ {
+  "seed": 1179,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 0,
+  "draws": 0,
+  "hash": "811c9dc5"
+ },
+ {
+  "seed": 1180,
+  "outcome": "returned",
+  "turns": 6,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 24,
+  "draws": 202,
+  "hash": "9b86a5b2"
+ },
+ {
+  "seed": 1181,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 4,
+  "draws": 5,
+  "hash": "3d60e7d9"
+ },
+ {
+  "seed": 1182,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 5,
+  "draws": 136,
+  "hash": "01aaae00"
+ },
+ {
+  "seed": 1183,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 12,
+  "draws": 170,
+  "hash": "3c8383f2"
+ },
+ {
+  "seed": 1184,
+  "outcome": "returned",
+  "turns": 8,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 37,
+  "draws": 279,
+  "hash": "2456dd60"
+ },
+ {
+  "seed": 1185,
+  "outcome": "lost",
+  "turns": 1,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 12,
+  "draws": 179,
+  "hash": "5e5bbbe3"
+ },
+ {
+  "seed": 1186,
+  "outcome": "returned",
+  "turns": 7,
+  "shipsSunk": 1,
+  "tonnageSunk": 5,
+  "rolls": 40,
+  "draws": 282,
+  "hash": "1857385c"
+ },
+ {
+  "seed": 1187,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 22,
+  "draws": 200,
+  "hash": "0a249cce"
+ },
+ {
+  "seed": 1188,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 7,
+  "draws": 142,
+  "hash": "fb5f1152"
+ },
+ {
+  "seed": 1189,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 10,
+  "draws": 172,
+  "hash": "7dfbb055"
+ },
+ {
+  "seed": 1190,
+  "outcome": "lost",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 26,
+  "draws": 198,
+  "hash": "aa5b2e61"
+ },
+ {
+  "seed": 1191,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 1,
+  "tonnageSunk": 2,
+  "rolls": 13,
+  "draws": 154,
+  "hash": "73fc20d7"
+ },
+ {
+  "seed": 1192,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 1,
+  "tonnageSunk": 5,
+  "rolls": 9,
+  "draws": 141,
+  "hash": "8001e0a9"
+ },
+ {
+  "seed": 1193,
+  "outcome": "returned",
+  "turns": 2,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 0,
+  "draws": 0,
+  "hash": "811c9dc5"
+ },
+ {
+  "seed": 1194,
+  "outcome": "returned",
+  "turns": 3,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 7,
+  "draws": 168,
+  "hash": "71dead3f"
+ },
+ {
+  "seed": 1195,
+  "outcome": "returned",
+  "turns": 7,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 17,
+  "draws": 174,
+  "hash": "34ec57b5"
+ },
+ {
+  "seed": 1196,
+  "outcome": "returned",
+  "turns": 5,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 20,
+  "draws": 192,
+  "hash": "74a45326"
+ },
+ {
+  "seed": 1197,
+  "outcome": "returned",
+  "turns": 6,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 23,
+  "draws": 221,
+  "hash": "6265af27"
+ },
+ {
+  "seed": 1198,
+  "outcome": "returned",
+  "turns": 4,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 17,
+  "draws": 166,
+  "hash": "069971da"
+ },
+ {
+  "seed": 1199,
+  "outcome": "returned",
+  "turns": 6,
+  "shipsSunk": 0,
+  "tonnageSunk": 0,
+  "rolls": 26,
+  "draws": 231,
+  "hash": "4ea3ee63"
+ }
+]

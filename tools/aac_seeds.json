@@ -1,0 +1,163 @@
+[
+ {
+  "id": "kurile",
+  "name": "Kurile Islands",
+  "group": "NORTH PAC",
+  "x": 0.5419161676646707,
+  "y": 0.17454545454545456
+ },
+ {
+  "id": "aleutians",
+  "name": "Aleutian Islands",
+  "group": "NORTH PAC",
+  "x": 0.7397512666973745,
+  "y": 0.13787878787878788
+ },
+ {
+  "id": "north_pacific",
+  "name": "North Pacific",
+  "group": "NORTH PAC",
+  "x": 0.6568401658222017,
+  "y": 0.2815151515151515
+ },
+ {
+  "id": "hawaiian",
+  "name": "Hawaiian Islands",
+  "group": "MID PAC",
+  "x": 0.7911100875172732,
+  "y": 0.32
+ },
+ {
+  "id": "sea_of_japan",
+  "name": "Sea of Japan",
+  "group": "EMPIRE",
+  "x": 0.3588208198986642,
+  "y": 0.1687878787878788
+ },
+ {
+  "id": "empire_pacific",
+  "name": "Empire Pacific",
+  "group": "EMPIRE",
+  "x": 0.4767388300322432,
+  "y": 0.29454545454545455
+ },
+ {
+  "id": "yellow_sea",
+  "name": "Yellow Sea",
+  "group": "CHINA",
+  "x": 0.25564256103178257,
+  "y": 0.27575757575757576
+ },
+ {
+  "id": "east_china_sea",
+  "name": "East China Sea",
+  "group": "CHINA",
+  "x": 0.36849378166743435,
+  "y": 0.35787878787878785
+ },
+ {
+  "id": "bonins",
+  "name": "Bonins",
+  "group": "CEN PAC",
+  "x": 0.5649470290188853,
+  "y": 0.36393939393939395
+ },
+ {
+  "id": "marshalls",
+  "name": "Marshall Islands",
+  "group": "MID PAC",
+  "x": 0.6966835559649931,
+  "y": 0.4706060606060606
+ },
+ {
+  "id": "scs1",
+  "name": "South China Sea 1",
+  "group": "INDOCHINA",
+  "x": 0.2473514509442653,
+  "y": 0.4681818181818182
+ },
+ {
+  "id": "n_phil_sea",
+  "name": "North Philippine Sea",
+  "group": "SW PAC",
+  "x": 0.37240902809765086,
+  "y": 0.48787878787878786
+ },
+ {
+  "id": "marianas",
+  "name": "Marianas",
+  "group": "CEN PAC",
+  "x": 0.5384615384615384,
+  "y": 0.48484848484848486
+ },
+ {
+  "id": "scs2",
+  "name": "South China Sea 2",
+  "group": "INDOCHINA",
+  "x": 0.2190234914785813,
+  "y": 0.5851515151515152
+ },
+ {
+  "id": "s_phil_sea",
+  "name": "South Philippine Sea",
+  "group": "SW PAC",
+  "x": 0.372639336711193,
+  "y": 0.6121212121212121
+ },
+ {
+  "id": "carolines",
+  "name": "Carolines",
+  "group": "CEN PAC",
+  "x": 0.5736987563334869,
+  "y": 0.6093939393939394
+ },
+ {
+  "id": "transfer_route",
+  "name": "Transfer Route",
+  "group": "MID PAC",
+  "x": 0.7558728696453247,
+  "y": 0.6136363636363636
+ },
+ {
+  "id": "bismarck_sea",
+  "name": "Bismarck Sea",
+  "group": "SOUTH PAC",
+  "x": 0.47996315062183326,
+  "y": 0.6845454545454546
+ },
+ {
+  "id": "java_sea",
+  "name": "Java Sea",
+  "group": "INDOCHINA",
+  "x": 0.22109626900046062,
+  "y": 0.7481818181818182
+ },
+ {
+  "id": "banda_sea",
+  "name": "Banda Sea",
+  "group": "SW PAC",
+  "x": 0.35006909258406266,
+  "y": 0.7466666666666667
+ },
+ {
+  "id": "solomons",
+  "name": "Solomons",
+  "group": "SOUTH PAC",
+  "x": 0.6197604790419161,
+  "y": 0.7212121212121212
+ },
+ {
+  "id": "gilberts",
+  "name": "Gilbert Islands",
+  "group": "SOUTH PAC",
+  "x": 0.7231690465223399,
+  "y": 0.7909090909090909
+ },
+ {
+  "id": "coral_sea",
+  "name": "Coral Sea",
+  "group": "SOUTH PAC",
+  "x": 0.5502072777521879,
+  "y": 0.8327272727272728
+ }
+]

@@ -1,0 +1,517 @@
+[
+ {
+  "window": "Pacific",
+  "hotkey": null,
+  "board_image": "SW_map_final-50.png",
+  "zones": [
+   "Sub Base Pearl Harbor",
+   "Sub Base Brisbane",
+   "Sub Base Freemantle",
+   "Sub Base Dutch Harbor",
+   "Sub Base Manilla/Subic",
+   "Dutch Harbor",
+   "Pearl Harbor",
+   "Brisbane",
+   "Freemantle",
+   "Manilla/Subic",
+   "Surabaya",
+   "Year",
+   "Week",
+   "Month",
+   "War Period",
+   "Torpedo Value",
+   "Pacific",
+   "Off Map"
+  ],
+  "regions": {
+   "1941": [
+    1396,
+    273
+   ],
+   "1942": [
+    1522,
+    273
+   ],
+   "1943": [
+    1648,
+    273
+   ],
+   "1944": [
+    1773,
+    273
+   ],
+   "1945": [
+    1899,
+    273
+   ],
+   "Week 1": [
+    2404,
+    273
+   ],
+   "Week 2": [
+    2530,
+    273
+   ],
+   "Week 3": [
+    2656,
+    273
+   ],
+   "Week 4": [
+    2782,
+    273
+   ],
+   "January": [
+    1395,
+    145
+   ],
+   "February": [
+    1522,
+    149
+   ],
+   "March": [
+    1648,
+    149
+   ],
+   "April": [
+    1773,
+    149
+   ],
+   "May": [
+    1899,
+    149
+   ],
+   "June": [
+    2025,
+    149
+   ],
+   "July": [
+    2152,
+    149
+   ],
+   "August": [
+    2278,
+    149
+   ],
+   "September": [
+    2404,
+    149
+   ],
+   "October": [
+    2530,
+    149
+   ],
+   "December": [
+    2782,
+    149
+   ],
+   "November": [
+    2656,
+    149
+   ],
+   "W1": [
+    857,
+    272
+   ],
+   "W2": [
+    981,
+    272
+   ],
+   "W3": [
+    1105,
+    272
+   ],
+   "W4": [
+    1228,
+    272
+   ],
+   "-2": [
+    770,
+    582
+   ],
+   "-1": [
+    886,
+    582
+   ],
+   "0": [
+    1002,
+    582
+   ],
+   "+1": [
+    1118,
+    582
+   ],
+   "+2": [
+    1233,
+    582
+   ]
+  },
+  "draw_piles": []
+ },
+ {
+  "window": "Sub Tenders",
+  "hotkey": "F3",
+  "board_image": "sub_tender_display.png",
+  "zones": [
+   "Sub Base Surabaya",
+   "Holland",
+   "Canopus",
+   "Fulton",
+   "Sperry",
+   "Bushnell",
+   "Orion",
+   "Proteus",
+   "Gilmore"
+  ],
+  "regions": {},
+  "draw_piles": []
+ },
+ {
+  "window": "Combat Display",
+  "hotkey": "F4",
+  "board_image": "combat_display.png",
+  "zones": [],
+  "regions": {
+   "Sub_A1": [
+    243,
+    988
+   ],
+   "Sub_A2": [
+    243,
+    1132
+   ],
+   "Sub_B1": [
+    654,
+    988
+   ],
+   "Sub_B2": [
+    654,
+    1132
+   ],
+   "Sub_C1": [
+    1077,
+    988
+   ],
+   "Sub_C2": [
+    1077,
+    1132
+   ],
+   "Sub_D1": [
+    1498,
+    988
+   ],
+   "Sub_D2": [
+    1498,
+    1132
+   ],
+   "TDC_A6": [
+    119,
+    194
+   ],
+   "TDC_A5": [
+    119,
+    312
+   ],
+   "TDC_A4": [
+    119,
+    431
+   ],
+   "TDC_A3": [
+    119,
+    548
+   ],
+   "TDC_A2": [
+    119,
+    666
+   ],
+   "TDC_A1": [
+    119,
+    785
+   ],
+   "TS_A6": [
+    247,
+    194
+   ],
+   "TS_A5": [
+    247,
+    312
+   ],
+   "TS_A4": [
+    247,
+    431
+   ],
+   "TS_A3": [
+    247,
+    548
+   ],
+   "TS_A2": [
+    247,
+    666
+   ],
+   "TS_A1": [
+    247,
+    785
+   ],
+   "TDC_B5": [
+    529,
+    208
+   ],
+   "TDC_B4": [
+    529,
+    347
+   ],
+   "TDC_B3": [
+    529,
+    486
+   ],
+   "TDC_B2": [
+    529,
+    625
+   ],
+   "TDC_B1": [
+    529,
+    764
+   ],
+   "TS_B5": [
+    658,
+    208
+   ],
+   "TS_B4": [
+    658,
+    347
+   ],
+   "TS_B3": [
+    658,
+    486
+   ],
+   "TS_B2": [
+    658,
+    625
+   ],
+   "TS_B1": [
+    658,
+    764
+   ],
+   "TDC_C5": [
+    950,
+    208
+   ],
+   "TDC_C4": [
+    950,
+    347
+   ],
+   "TDC_C3": [
+    950,
+    486
+   ],
+   "TDC_C2": [
+    950,
+    625
+   ],
+   "TDC_C1": [
+    950,
+    764
+   ],
+   "TS_C5": [
+    1079,
+    208
+   ],
+   "TS_C4": [
+    1079,
+    347
+   ],
+   "TS_C3": [
+    1079,
+    486
+   ],
+   "TS_C2": [
+    1079,
+    625
+   ],
+   "TS_C1": [
+    1079,
+    764
+   ],
+   "TDC_D6": [
+    1369,
+    194
+   ],
+   "TDC_D5": [
+    1369,
+    312
+   ],
+   "TDC_D4": [
+    1369,
+    431
+   ],
+   "TDC_D3": [
+    1369,
+    548
+   ],
+   "TDC_D2": [
+    1369,
+    666
+   ],
+   "TDC_D1": [
+    1369,
+    785
+   ],
+   "TS_D6": [
+    1497,
+    194
+   ],
+   "TS_D5": [
+    1497,
+    312
+   ],
+   "TS_D4": [
+    1497,
+    431
+   ],
+   "TS_D3": [
+    1497,
+    548
+   ],
+   "TS_D2": [
+    1497,
+    666
+   ],
+   "TS_D1": [
+    1497,
+    785
+   ]
+  },
+  "draw_piles": []
+ },
+ {
+  "window": "War Period 1 Cups",
+  "hotkey": "F5",
+  "board_image": "cups_w1.gif",
+  "zones": [],
+  "regions": {},
+  "draw_piles": [
+   "W1_Cup_A",
+   "W1_Cup_B",
+   "W1_Cup_C",
+   "W1_Cup_D",
+   "W1_TDC",
+   "Shokaku",
+   "Yamato",
+   "Asahi",
+   "Izumo",
+   "1_DD2T",
+   "1_DD1T",
+   "1_DE1T",
+   "1_DDD",
+   "1_M7T",
+   "1_M6T"
+  ]
+ },
+ {
+  "window": "War Period 2 Cups",
+  "hotkey": "F6",
+  "board_image": "cups_w2.gif",
+  "zones": [],
+  "regions": {},
+  "draw_piles": [
+   "W2_Cup_A",
+   "W2_Cup_B",
+   "W2_Cup_C",
+   "W2_Cup_D",
+   "W2_TDC",
+   "Shokaku",
+   "Yamato",
+   "Asahi",
+   "Izumo",
+   "2_DD2T",
+   "2_DD1T",
+   "2_DE1T",
+   "2_DDD",
+   "2_M7T",
+   "2_M6T"
+  ]
+ },
+ {
+  "window": "War Period 3 Cups",
+  "hotkey": "F7",
+  "board_image": "cups_w3.gif",
+  "zones": [],
+  "regions": {},
+  "draw_piles": [
+   "W3_Cup_A",
+   "W3_Cup_B",
+   "W3_Cup_C",
+   "W3_Cup_D",
+   "W3_TDC",
+   "Shokaku",
+   "Taiho",
+   "Shinano",
+   "BV 36",
+   "Yamato",
+   "3_DD2T",
+   "3_DD1T",
+   "3_DE1T",
+   "3_DDD",
+   "3_M7T",
+   "3_M6T"
+  ]
+ },
+ {
+  "window": "War Period 4 Cups",
+  "hotkey": "F8",
+  "board_image": "cups_w4.gif",
+  "zones": [],
+  "regions": {},
+  "draw_piles": [
+   "W4_Cup_A",
+   "W4_Cup_B",
+   "W4_Cup_C",
+   "W4_Cup_D",
+   "W4_TDC",
+   "Shokaku",
+   "Taiho",
+   "Shinano",
+   "BV 36",
+   "Yamato",
+   "4_DD2T",
+   "4_DD1T",
+   "4_DE1T",
+   "4_DDD",
+   "4_M7T",
+   "4_M6T"
+  ]
+ },
+ {
+  "window": "1932 Scenario Cups",
+  "hotkey": "F9",
+  "board_image": "cups_32.gif",
+  "zones": [],
+  "regions": {},
+  "draw_piles": [
+   "32_Cup_A",
+   "32_Cup_B",
+   "32_Cup_C",
+   "32_Cup_D",
+   "32_TDC",
+   "Kaga",
+   "Asahi",
+   "Izumo",
+   "CV 10t",
+   "32_DD2T",
+   "32_DD1T",
+   "32_DE1T",
+   "32_DDD",
+   "32_M7T",
+   "32_M6T"
+  ]
+ },
+ {
+  "window": "Submarine Graveyard",
+  "hotkey": null,
+  "board_image": "sunk.jpg",
+  "zones": [
+   "Submarine Graveyard"
+  ],
+  "regions": {},
+  "draw_piles": []
+ }
+]

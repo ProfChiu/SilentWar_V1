@@ -1,0 +1,91 @@
+{
+ "kurile": [
+  2133,
+  599
+ ],
+ "aleutians": [
+  2981,
+  208
+ ],
+ "north_pacific": [
+  2635,
+  677
+ ],
+ "hawaiian": null,
+ "sea_of_japan": [
+  1473,
+  600
+ ],
+ "empire_pacific": [
+  1880,
+  696
+ ],
+ "yellow_sea": [
+  927,
+  649
+ ],
+ "east_china_sea": [
+  1404,
+  923
+ ],
+ "bonins": [
+  2160,
+  938
+ ],
+ "marshalls": [
+  2824,
+  1323
+ ],
+ "scs1": [
+  882,
+  1303
+ ],
+ "n_phil_sea": [
+  1420,
+  1337
+ ],
+ "marianas": [
+  2142,
+  1364
+ ],
+ "scs2": [
+  672,
+  1695
+ ],
+ "s_phil_sea": [
+  1423,
+  1752
+ ],
+ "carolines": [
+  2295,
+  1748
+ ],
+ "transfer_route": [
+  2862,
+  1792
+ ],
+ "bismarck_sea": [
+  2009,
+  2000
+ ],
+ "java_sea": [
+  674,
+  2220
+ ],
+ "banda_sea": [
+  1326,
+  2244
+ ],
+ "solomons": [
+  2204,
+  2317
+ ],
+ "gilberts": [
+  2770,
+  2663
+ ],
+ "coral_sea": [
+  2188,
+  2809
+ ]
+}

@@ -1,0 +1,492 @@
+[
+ {
+  "id": "ac10t30(izumo)",
+  "type": "AC",
+  "tonnage": 10,
+  "defense": 3,
+  "asw": 0,
+  "name": "Izumo",
+  "art": "../../Source/images/ac10t30(izumo).gif",
+  "entry": null
+ },
+ {
+  "id": "af5t30",
+  "type": "AF",
+  "tonnage": 5,
+  "defense": 3,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/af5t30.gif",
+  "entry": null
+ },
+ {
+  "id": "af9t30",
+  "type": "AF",
+  "tonnage": 9,
+  "defense": 3,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/af9t30.gif",
+  "entry": null
+ },
+ {
+  "id": "ao10t30",
+  "type": "AO",
+  "tonnage": 10,
+  "defense": 3,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/ao10t30.gif",
+  "entry": null
+ },
+ {
+  "id": "ao15t40",
+  "type": "AO",
+  "tonnage": 15,
+  "defense": 4,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/ao15t40.gif",
+  "entry": null
+ },
+ {
+  "id": "ao5t20",
+  "type": "AO",
+  "tonnage": 5,
+  "defense": 2,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/ao5t20.gif",
+  "entry": null
+ },
+ {
+  "id": "ao8t30",
+  "type": "AO",
+  "tonnage": 8,
+  "defense": 3,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/ao8t30.gif",
+  "entry": null
+ },
+ {
+  "id": "ar15t30(asahi)",
+  "type": "AR",
+  "tonnage": 15,
+  "defense": 3,
+  "asw": 0,
+  "name": "Asahi",
+  "art": "../../Source/images/ar15t30(asahi).gif",
+  "entry": null
+ },
+ {
+  "id": "bb32t80",
+  "type": "BB",
+  "tonnage": 32,
+  "defense": 8,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/bb32t80.gif",
+  "entry": null
+ },
+ {
+  "id": "bb35t70",
+  "type": "BB",
+  "tonnage": 35,
+  "defense": 7,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/bb35t70.gif",
+  "entry": null
+ },
+ {
+  "id": "bb36t90",
+  "type": "BB",
+  "tonnage": 36,
+  "defense": 9,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/bb36t90.gif",
+  "entry": null
+ },
+ {
+  "id": "bb40t90",
+  "type": "BB",
+  "tonnage": 40,
+  "defense": 9,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/bb40t90.gif",
+  "entry": null
+ },
+ {
+  "id": "bb68t110(yamato)",
+  "type": "BB",
+  "tonnage": 68,
+  "defense": 11,
+  "asw": 0,
+  "name": "Yamato",
+  "art": "../../Source/images/bb68t110(yamato).gif",
+  "entry": "5/42"
+ },
+ {
+  "id": "bv36t90",
+  "type": "BV",
+  "tonnage": 36,
+  "defense": 9,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/bv36t90.gif",
+  "entry": "10/43"
+ },
+ {
+  "id": "ca15t50",
+  "type": "CA",
+  "tonnage": 15,
+  "defense": 5,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/ca15t50.gif",
+  "entry": null
+ },
+ {
+  "id": "ca9t40",
+  "type": "CA",
+  "tonnage": 9,
+  "defense": 4,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/ca9t40.gif",
+  "entry": null
+ },
+ {
+  "id": "cl5t40",
+  "type": "CL",
+  "tonnage": 5,
+  "defense": 4,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/cl5t40.gif",
+  "entry": null
+ },
+ {
+  "id": "cv10t40",
+  "type": "CV",
+  "tonnage": 10,
+  "defense": 4,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/cv10t40.gif",
+  "entry": null
+ },
+ {
+  "id": "cv15t40",
+  "type": "CV",
+  "tonnage": 15,
+  "defense": 4,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/cv15t40.gif",
+  "entry": null
+ },
+ {
+  "id": "cv15t50",
+  "type": "CV",
+  "tonnage": 15,
+  "defense": 5,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/cv15t50.gif",
+  "entry": null
+ },
+ {
+  "id": "cv25t50(shokaku)",
+  "type": "CV",
+  "tonnage": 25,
+  "defense": 5,
+  "asw": 0,
+  "name": "Shokaku",
+  "art": "../../Source/images/cv25t50(shokaku).gif",
+  "entry": null
+ },
+ {
+  "id": "cv30t60(taiho)",
+  "type": "CV",
+  "tonnage": 30,
+  "defense": 6,
+  "asw": 0,
+  "name": "Taiho",
+  "art": "../../Source/images/cv30t60(taiho).gif",
+  "entry": "3/44"
+ },
+ {
+  "id": "cv43t50(kaga)",
+  "type": "CV",
+  "tonnage": 43,
+  "defense": 5,
+  "asw": 0,
+  "name": "Kaga",
+  "art": "../../Source/images/cv43t50(kaga).gif",
+  "entry": "1932"
+ },
+ {
+  "id": "cv65t60(shinano)",
+  "type": "CV",
+  "tonnage": 65,
+  "defense": 6,
+  "asw": 0,
+  "name": "Shinano",
+  "art": "../../Source/images/cv65t60(shinano).gif",
+  "entry": "11/44"
+ },
+ {
+  "id": "dd1t6half",
+  "type": "DD",
+  "tonnage": 1,
+  "defense": 6,
+  "asw": 0.5,
+  "name": null,
+  "art": "../../Source/images/dd1t6half.gif",
+  "entry": null
+ },
+ {
+  "id": "dd2t61",
+  "type": "DD",
+  "tonnage": 2,
+  "defense": 6,
+  "asw": 1,
+  "name": null,
+  "art": "../../Source/images/dd2t61.gif",
+  "entry": null
+ },
+ {
+  "id": "dd2t62",
+  "type": "DD",
+  "tonnage": 2,
+  "defense": 6,
+  "asw": 2,
+  "name": null,
+  "art": "../../Source/images/dd2t62.gif",
+  "entry": null
+ },
+ {
+  "id": "dd2t63",
+  "type": "DD",
+  "tonnage": 2,
+  "defense": 6,
+  "asw": 3,
+  "name": null,
+  "art": "../../Source/images/dd2t63.gif",
+  "entry": null
+ },
+ {
+  "id": "dd2t71",
+  "type": "DD",
+  "tonnage": 2,
+  "defense": 7,
+  "asw": 1,
+  "name": null,
+  "art": "../../Source/images/dd2t71.gif",
+  "entry": null
+ },
+ {
+  "id": "dd2t72",
+  "type": "DD",
+  "tonnage": 2,
+  "defense": 7,
+  "asw": 2,
+  "name": null,
+  "art": "../../Source/images/dd2t72.gif",
+  "entry": null
+ },
+ {
+  "id": "dd2t73",
+  "type": "DD",
+  "tonnage": 2,
+  "defense": 7,
+  "asw": 3,
+  "name": null,
+  "art": "../../Source/images/dd2t73.gif",
+  "entry": null
+ },
+ {
+  "id": "dd2t74(diligent)",
+  "type": "DD",
+  "tonnage": 2,
+  "defense": 7,
+  "asw": 4,
+  "name": "Diligent",
+  "art": "../../Source/images/dd2t74(diligent).gif",
+  "entry": null
+ },
+ {
+  "id": "de1t82",
+  "type": "DE",
+  "tonnage": 1,
+  "defense": 8,
+  "asw": 2,
+  "name": null,
+  "art": "../../Source/images/de1t82.gif",
+  "entry": "3/44"
+ },
+ {
+  "id": "m10t30",
+  "type": "M",
+  "tonnage": 10,
+  "defense": 3,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/m10t30.gif",
+  "entry": null
+ },
+ {
+  "id": "m15t30",
+  "type": "M",
+  "tonnage": 15,
+  "defense": 3,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/m15t30.gif",
+  "entry": null
+ },
+ {
+  "id": "m1t10",
+  "type": "M",
+  "tonnage": 1,
+  "defense": 1,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/m1t10.gif",
+  "entry": null
+ },
+ {
+  "id": "m1t20",
+  "type": "M",
+  "tonnage": 1,
+  "defense": 2,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/m1t20.gif",
+  "entry": null
+ },
+ {
+  "id": "m20t40",
+  "type": "M",
+  "tonnage": 20,
+  "defense": 4,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/m20t40.gif",
+  "entry": null
+ },
+ {
+  "id": "m2t10",
+  "type": "M",
+  "tonnage": 2,
+  "defense": 1,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/m2t10.gif",
+  "entry": null
+ },
+ {
+  "id": "m2t20",
+  "type": "M",
+  "tonnage": 2,
+  "defense": 2,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/m2t20.gif",
+  "entry": null
+ },
+ {
+  "id": "m3t10",
+  "type": "M",
+  "tonnage": 3,
+  "defense": 1,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/m3t10.gif",
+  "entry": null
+ },
+ {
+  "id": "m3t20",
+  "type": "M",
+  "tonnage": 3,
+  "defense": 2,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/m3t20.gif",
+  "entry": null
+ },
+ {
+  "id": "m3t30",
+  "type": "M",
+  "tonnage": 3,
+  "defense": 3,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/m3t30.gif",
+  "entry": null
+ },
+ {
+  "id": "m5t10",
+  "type": "M",
+  "tonnage": 5,
+  "defense": 1,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/m5t10.gif",
+  "entry": null
+ },
+ {
+  "id": "m5t20",
+  "type": "M",
+  "tonnage": 5,
+  "defense": 2,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/m5t20.gif",
+  "entry": null
+ },
+ {
+  "id": "m5t30",
+  "type": "M",
+  "tonnage": 5,
+  "defense": 3,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/m5t30.gif",
+  "entry": null
+ },
+ {
+  "id": "m8t30",
+  "type": "M",
+  "tonnage": 8,
+  "defense": 3,
+  "asw": 0,
+  "name": null,
+  "art": "../../Source/images/m8t30.gif",
+  "entry": null
+ },
+ {
+  "id": "h8emily2",
+  "type": "AIR",
+  "tonnage": null,
+  "defense": null,
+  "asw": 1,
+  "name": "H8 Emily",
+  "art": "../../Source/images/h8emily2.gif",
+  "entry": null
+ },
+ {
+  "id": "h6mavis2",
+  "type": "AIR",
+  "tonnage": null,
+  "defense": null,
+  "asw": 1,
+  "name": "H6 Mavis",
+  "art": "../../Source/images/h6mavis2.gif",
+  "entry": null
+ }
+]

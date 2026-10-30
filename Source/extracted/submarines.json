@@ -1,0 +1,1856 @@
+[
+ {
+  "name": "S1",
+  "class": "S1",
+  "art": "s1",
+  "entry": "4/32"
+ },
+ {
+  "name": "S2",
+  "class": "s2",
+  "art": "s2",
+  "entry": "4/32"
+ },
+ {
+  "name": "S19",
+  "class": "S1",
+  "art": "s1",
+  "entry": "4/32"
+ },
+ {
+  "name": "S26",
+  "class": "S1",
+  "art": "s1",
+  "entry": "4/32"
+ },
+ {
+  "name": "S48",
+  "class": "S3",
+  "art": "s3",
+  "entry": "6/32"
+ },
+ {
+  "name": "USS Bass",
+  "class": "b",
+  "art": "b",
+  "entry": "5/32"
+ },
+ {
+  "name": "USS Bonita",
+  "class": "b",
+  "art": "b",
+  "entry": "5/32"
+ },
+ {
+  "name": "USS Barracuda",
+  "class": "b",
+  "art": "b",
+  "entry": "6/32"
+ },
+ {
+  "name": "USS Leviathon",
+  "class": "type_5",
+  "art": "type_5",
+  "entry": "6/32"
+ },
+ {
+  "name": "S36",
+  "class": "S1",
+  "art": "s1",
+  "entry": "W/S"
+ },
+ {
+  "name": "S37",
+  "class": "S1",
+  "art": "s1",
+  "entry": "W/S"
+ },
+ {
+  "name": "S38",
+  "class": "S1",
+  "art": "s1",
+  "entry": "W/S"
+ },
+ {
+  "name": "S39",
+  "class": "S1",
+  "art": "s1",
+  "entry": "W/S"
+ },
+ {
+  "name": "S40",
+  "class": "S1",
+  "art": "s1",
+  "entry": "W/S"
+ },
+ {
+  "name": "S41",
+  "class": "S1",
+  "art": "s1",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Argonaut",
+  "class": "argonaut",
+  "art": "argonaut",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Dolphin",
+  "class": "dolphin",
+  "art": "dolphin",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Cachalot",
+  "class": "cachelot",
+  "art": "cachelot",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Gudgeon",
+  "class": "T",
+  "art": "t",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Narwhal",
+  "class": "narwhal",
+  "art": "narwhal",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Perch",
+  "class": "P3",
+  "art": "p3",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Permit",
+  "class": "P3",
+  "art": "p3",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Pickerel",
+  "class": "P3",
+  "art": "p3",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Pike",
+  "class": "p1",
+  "art": "p1",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Plunger",
+  "class": "P3",
+  "art": "p3",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Pollack",
+  "class": "P3",
+  "art": "p3",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Pompano",
+  "class": "P3",
+  "art": "p3",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Porpoise",
+  "class": "p1",
+  "art": "p1",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Sailfish",
+  "class": "New_S2",
+  "art": "new_s2",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Salmon",
+  "class": "New_S1",
+  "art": "new_s1",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Sargo",
+  "class": "New_S2",
+  "art": "new_s2",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Saury",
+  "class": "New_S2",
+  "art": "new_s2",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Sculpin",
+  "class": "New_S2",
+  "art": "new_s2",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Seadragon",
+  "class": "New_S2",
+  "art": "new_s2",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Seal",
+  "class": "New_S1",
+  "art": "new_s1",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Sealion",
+  "class": "New_S2",
+  "art": "new_s2",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Searaven",
+  "class": "New_S2",
+  "art": "new_s2",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Seawolf",
+  "class": "New_S2",
+  "art": "new_s2",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Shark",
+  "class": "p2",
+  "art": "p2",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Skipjack",
+  "class": "New_S1",
+  "art": "new_s1",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Snapper",
+  "class": "New_S1",
+  "art": "new_s1",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Spearfish",
+  "class": "New_S2",
+  "art": "new_s2",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Stingray",
+  "class": "New_S1",
+  "art": "new_s1",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Sturgeon",
+  "class": "New_S1",
+  "art": "new_s1",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Swordfish",
+  "class": "New_S2",
+  "art": "new_s2",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Tambor",
+  "class": "T",
+  "art": "t",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Tarpon",
+  "class": "p2",
+  "art": "p2",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Tautog",
+  "class": "T",
+  "art": "t",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Thresher",
+  "class": "T",
+  "art": "t",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Triton",
+  "class": "T",
+  "art": "t",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Trout",
+  "class": "T",
+  "art": "t",
+  "entry": "W/S"
+ },
+ {
+  "name": "S18",
+  "class": "S1",
+  "art": "s1",
+  "entry": "2/42"
+ },
+ {
+  "name": "S23",
+  "class": "S1",
+  "art": "s1",
+  "entry": "2/42"
+ },
+ {
+  "name": "S27",
+  "class": "S1",
+  "art": "s1",
+  "entry": "5/42"
+ },
+ {
+  "name": "S28",
+  "class": "S1",
+  "art": "s1",
+  "entry": "5/42"
+ },
+ {
+  "name": "S30",
+  "class": "S1",
+  "art": "s1",
+  "entry": "8/42"
+ },
+ {
+  "name": "S31",
+  "class": "S1",
+  "art": "s1",
+  "entry": "7/42"
+ },
+ {
+  "name": "S32",
+  "class": "S1",
+  "art": "s1",
+  "entry": "7/42"
+ },
+ {
+  "name": "S33",
+  "class": "S1",
+  "art": "s1",
+  "entry": "7/42"
+ },
+ {
+  "name": "S34",
+  "class": "S1",
+  "art": "s1",
+  "entry": "4/42"
+ },
+ {
+  "name": "S35",
+  "class": "S1",
+  "art": "s1",
+  "entry": "4/42"
+ },
+ {
+  "name": "S42",
+  "class": "S3",
+  "art": "s3",
+  "entry": "4/42"
+ },
+ {
+  "name": "S43",
+  "class": "S3",
+  "art": "s3",
+  "entry": "5/42"
+ },
+ {
+  "name": "S44",
+  "class": "S3",
+  "art": "s3",
+  "entry": "4/42"
+ },
+ {
+  "name": "S45",
+  "class": "S3",
+  "art": "s3",
+  "entry": "5/42"
+ },
+ {
+  "name": "S46",
+  "class": "S3",
+  "art": "s3",
+  "entry": "5/42"
+ },
+ {
+  "name": "S47",
+  "class": "S3",
+  "art": "s3",
+  "entry": "4/42"
+ },
+ {
+  "name": "USS Albacore",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "8/42"
+ },
+ {
+  "name": "USS Amberjack",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "9/42"
+ },
+ {
+  "name": "USS Cuttlefish",
+  "class": "cachelot",
+  "art": "cachelot",
+  "entry": "1/42"
+ },
+ {
+  "name": "USS Drum",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "4/42"
+ },
+ {
+  "name": "USS Finback",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "6/42"
+ },
+ {
+  "name": "USS Flying Fish",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "5/42"
+ },
+ {
+  "name": "USS Gar",
+  "class": "T",
+  "art": "t",
+  "entry": "2/42"
+ },
+ {
+  "name": "USS Gato",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "4/42"
+ },
+ {
+  "name": "USS Grampus",
+  "class": "T",
+  "art": "t",
+  "entry": "2/42"
+ },
+ {
+  "name": "USS Grayback",
+  "class": "T",
+  "art": "t",
+  "entry": "2/42"
+ },
+ {
+  "name": "USS Grayling",
+  "class": "T",
+  "art": "t",
+  "entry": "1/42"
+ },
+ {
+  "name": "USS Greenling",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "4/42"
+ },
+ {
+  "name": "USS Grenadier",
+  "class": "T",
+  "art": "t",
+  "entry": "2/42"
+ },
+ {
+  "name": "USS Grouper",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "5/42"
+ },
+ {
+  "name": "USS Growler",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "5/42"
+ },
+ {
+  "name": "USS Grunion",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "6/42"
+ },
+ {
+  "name": "USS Guardfish",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "8/42"
+ },
+ {
+  "name": "USS Haddock",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "7/42"
+ },
+ {
+  "name": "USS Halibut",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "8/42"
+ },
+ {
+  "name": "USS Kingfish",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "9/42"
+ },
+ {
+  "name": "USS Nautilus",
+  "class": "narwhal",
+  "art": "narwhal",
+  "entry": "5/42"
+ },
+ {
+  "name": "USS Silversides",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "4/42"
+ },
+ {
+  "name": "USS Sunfish",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "11/42"
+ },
+ {
+  "name": "USS Trigger",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "5/42"
+ },
+ {
+  "name": "USS Tuna",
+  "class": "T",
+  "art": "t",
+  "entry": "1/42"
+ },
+ {
+  "name": "USS Wahoo",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "8/42"
+ },
+ {
+  "name": "USS Whale",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "10/42"
+ },
+ {
+  "name": "USS Apogon",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "11/43"
+ },
+ {
+  "name": "USS Archerfish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "12/43"
+ },
+ {
+  "name": "USS Aspro",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "11/43"
+ },
+ {
+  "name": "USS Balao",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "7/43"
+ },
+ {
+  "name": "USS Barb",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "9/43"
+ },
+ {
+  "name": "USS Batfish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "12/43"
+ },
+ {
+  "name": "USS Billfish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "8/43"
+ },
+ {
+  "name": "USS Blackfish",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "10/43"
+ },
+ {
+  "name": "USS Bluefish",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "9/43"
+ },
+ {
+  "name": "USS Bonefish",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "9/43"
+ },
+ {
+  "name": "USS Bowfin",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "8/43"
+ },
+ {
+  "name": "USS Cabrilla",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "9/43"
+ },
+ {
+  "name": "USS Capelin",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "10/43"
+ },
+ {
+  "name": "USS Cero",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "9/43"
+ },
+ {
+  "name": "USS Cisco",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "9/43"
+ },
+ {
+  "name": "USS Cod",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "10/43"
+ },
+ {
+  "name": "USS Corvina",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "11/43"
+ },
+ {
+  "name": "USS Crevalle",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "10/43"
+ },
+ {
+  "name": "USS Dace",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "10/43"
+ },
+ {
+  "name": "USS Darter",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "12/43"
+ },
+ {
+  "name": "USS Gunnel",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "6/43"
+ },
+ {
+  "name": "USS Gurnard",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "6/43"
+ },
+ {
+  "name": "USS Hake",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "12/43"
+ },
+ {
+  "name": "USS Haddo",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "12/43"
+ },
+ {
+  "name": "USS Harder",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "6/43"
+ },
+ {
+  "name": "USS Herring",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "12/43"
+ },
+ {
+  "name": "USS Hoe",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "5/43"
+ },
+ {
+  "name": "USS Jack",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "6/43"
+ },
+ {
+  "name": "USS Lapon",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "6/43"
+ },
+ {
+  "name": "USS Mingo",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "6/43"
+ },
+ {
+  "name": "USS Muskallunge",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "9/43"
+ },
+ {
+  "name": "USS Paddle",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "7/43"
+ },
+ {
+  "name": "USS Pargo",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "8/43"
+ },
+ {
+  "name": "USS Peto",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "1/43"
+ },
+ {
+  "name": "USS Pogy",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "4/43"
+ },
+ {
+  "name": "USS Pompon",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "7/43"
+ },
+ {
+  "name": "USS Puffer",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "8/43"
+ },
+ {
+  "name": "USS Rasher",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "9/43"
+ },
+ {
+  "name": "USS Raton",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "11/43"
+ },
+ {
+  "name": "USS Ray",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "11/43"
+ },
+ {
+  "name": "USS Runner",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "1/43"
+ },
+ {
+  "name": "USS Sawfish",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "1/43"
+ },
+ {
+  "name": "USS Scamp",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "3/43"
+ },
+ {
+  "name": "USS Scorpion",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "4/43"
+ },
+ {
+  "name": "USS Seahorse",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "8/43"
+ },
+ {
+  "name": "USS Shad",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "9/43"
+ },
+ {
+  "name": "USS Skate",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "9/43"
+ },
+ {
+  "name": "USS Snook",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "4/43"
+ },
+ {
+  "name": "USS Steelhead",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "4/43"
+ },
+ {
+  "name": "USS Tinosa",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "5/43"
+ },
+ {
+  "name": "USS Tullibee",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "7/43"
+ },
+ {
+  "name": "USS Tunny",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "1/43"
+ },
+ {
+  "name": "USS Angler",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "1/44"
+ },
+ {
+  "name": "USS Atule",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "10/44"
+ },
+ {
+  "name": "USS Bang",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "3/44"
+ },
+ {
+  "name": "USS Barbel",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "7/44"
+ },
+ {
+  "name": "USS Barbero",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "8/44"
+ },
+ {
+  "name": "USS Bashaw",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "4/44"
+ },
+ {
+  "name": "USS Baya",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "8/44"
+ },
+ {
+  "name": "USS Becuna",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "8/44"
+ },
+ {
+  "name": "USS Bergall",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "9/44"
+ },
+ {
+  "name": "USS Besugo",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "9/44"
+ },
+ {
+  "name": "USS Bream",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "6/44"
+ },
+ {
+  "name": "USS Blackfin",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "10/44"
+ },
+ {
+  "name": "USS Blenny",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "11/44"
+ },
+ {
+  "name": "USS Blueback",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "12/44"
+ },
+ {
+  "name": "USS Bluegill",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "4/44"
+ },
+ {
+  "name": "USS Cavalla",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "6/44"
+ },
+ {
+  "name": "USS Boarfish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "12/44"
+ },
+ {
+  "name": "USS Burrfish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "2/44"
+ },
+ {
+  "name": "USS Caiman",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "11/44"
+ },
+ {
+  "name": "USS Charr",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "12/44"
+ },
+ {
+  "name": "USS Croaker",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "7/44"
+ },
+ {
+  "name": "USS Cobia",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "6/44"
+ },
+ {
+  "name": "USS Devilfish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "12/44"
+ },
+ {
+  "name": "USS Dragonet",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "11/44"
+ },
+ {
+  "name": "USS Escolar",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "9/44"
+ },
+ {
+  "name": "USS Flasher",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "1/44"
+ },
+ {
+  "name": "USS Flier",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "5/44"
+ },
+ {
+  "name": "USS Flounder",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "4/44"
+ },
+ {
+  "name": "USS Gabilan",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "4/44"
+ },
+ {
+  "name": "USS Golet",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "3/44"
+ },
+ {
+  "name": "USS Guavina",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "4/44"
+ },
+ {
+  "name": "USS Guitarro",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "5/44"
+ },
+ {
+  "name": "USS Hammerhead",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "6/44"
+ },
+ {
+  "name": "USS Hardhead",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "7/44"
+ },
+ {
+  "name": "USS Hawkbill",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "8/44"
+ },
+ {
+  "name": "USS Icefish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "9/44"
+ },
+ {
+  "name": "USS Jallao",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "10/44"
+ },
+ {
+  "name": "USS Kete",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "10/44"
+ },
+ {
+  "name": "USS Kraken",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "12/44"
+ },
+ {
+  "name": "USS Pampanito",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "3/44"
+ },
+ {
+  "name": "USS Parche",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "3/44"
+ },
+ {
+  "name": "USS Perch II",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "4/44"
+ },
+ {
+  "name": "USS Picuda",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "2/44"
+ },
+ {
+  "name": "USS Pilotfish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "5/44"
+ },
+ {
+  "name": "USS Pintado",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "5/44"
+ },
+ {
+  "name": "USS Pipefish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "5/44"
+ },
+ {
+  "name": "USS Piranha",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "6/44"
+ },
+ {
+  "name": "USS Plaice",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "6/44"
+ },
+ {
+  "name": "USS Pomfret",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "6/44"
+ },
+ {
+  "name": "USS Queenfish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "8/44"
+ },
+ {
+  "name": "USS Razorback",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "8/44"
+ },
+ {
+  "name": "USS Redfin",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "1/44"
+ },
+ {
+  "name": "USS Redfish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "7/44"
+ },
+ {
+  "name": "USS Robalo",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "1/44"
+ },
+ {
+  "name": "USS Rock",
+  "class": "Gato",
+  "art": "gato",
+  "entry": "2/44"
+ },
+ {
+  "name": "USS Ronquil",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "7/44"
+ },
+ {
+  "name": "USS Sandlance",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "2/44"
+ },
+ {
+  "name": "USS Scabbardfish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "8/44"
+ },
+ {
+  "name": "USS Sea Cat",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "10/44"
+ },
+ {
+  "name": "USS Sea Devil",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "9/44"
+ },
+ {
+  "name": "USS Sea Dog",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "9/44"
+ },
+ {
+  "name": "USS Sea Fox",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "10/44"
+ },
+ {
+  "name": "USS Sea Owl",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "11/44"
+ },
+ {
+  "name": "USS Sea Poacher",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "11/44"
+ },
+ {
+  "name": "USS Sea Robin",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "11/44"
+ },
+ {
+  "name": "USS Sealion II",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "6/44"
+ },
+ {
+  "name": "USS Segundo",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "8/44"
+ },
+ {
+  "name": "USS Shark II",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "5/44"
+ },
+ {
+  "name": "USS Spadefish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "7/44"
+ },
+ {
+  "name": "USS Spikefish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "11/44"
+ },
+ {
+  "name": "USS Spot",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "12/44"
+ },
+ {
+  "name": "USS Sterlet",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "7/44"
+ },
+ {
+  "name": "USS Tang",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "1/44"
+ },
+ {
+  "name": "USS Threadfin",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "12/44"
+ },
+ {
+  "name": "USS Tilefish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "4/44"
+ },
+ {
+  "name": "USS Trepang",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "9/44"
+ },
+ {
+  "name": "USS Argonaut II",
+  "class": "Tench",
+  "art": "tench",
+  "entry": "6/45"
+ },
+ {
+  "name": "USS Blower",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "1/45"
+ },
+ {
+  "name": "USS Brill",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "1/45"
+ },
+ {
+  "name": "USS Bugara",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "2/45"
+ },
+ {
+  "name": "USS Bullhead",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "3/45"
+ },
+ {
+  "name": "USS Bumper",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "4/45"
+ },
+ {
+  "name": "USS Cabezon",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "5/45"
+ },
+ {
+  "name": "USS Capitaine",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "5/45"
+ },
+ {
+  "name": "USS Carbonero",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "5/45"
+ },
+ {
+  "name": "USS Carp",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "6/45"
+ },
+ {
+  "name": "USS Catfish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "7/45"
+ },
+ {
+  "name": "USS Chub",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "2/45"
+ },
+ {
+  "name": "USS Cutlass",
+  "class": "Tench",
+  "art": "tench",
+  "entry": "8/45"
+ },
+ {
+  "name": "USS Dentuda",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "5/45"
+ },
+ {
+  "name": "USS Etemedor",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "7/45"
+ },
+ {
+  "name": "USS Hackleback",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "3/45"
+ },
+ {
+  "name": "USS Lagarto",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "1/45"
+ },
+ {
+  "name": "USS Lamprey",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "2/45"
+ },
+ {
+  "name": "USS Lionfish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "4/45"
+ },
+ {
+  "name": "USS Lizardfish",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "4/45"
+ },
+ {
+  "name": "USS Loggerhead",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "5/45"
+ },
+ {
+  "name": "USS Macabi",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "7/45"
+ },
+ {
+  "name": "USS Manta",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "5/45"
+ },
+ {
+  "name": "USS Moray",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "6/45"
+ },
+ {
+  "name": "USS Piper",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "1/45"
+ },
+ {
+  "name": "USS Quillback",
+  "class": "Tench",
+  "art": "tench",
+  "entry": "5/45"
+ },
+ {
+  "name": "USS Runner II",
+  "class": "Tench",
+  "art": "tench",
+  "entry": "6/45"
+ },
+ {
+  "name": "USS Sennet",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "1/45"
+ },
+ {
+  "name": "USS Springer",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "2/45"
+ },
+ {
+  "name": "USS Stickleback",
+  "class": "Balao",
+  "art": "balao",
+  "entry": "8/45"
+ },
+ {
+  "name": "USS Tench",
+  "class": "Tench",
+  "art": "tench",
+  "entry": "2/45"
+ },
+ {
+  "name": "USS Thornback",
+  "class": "Tench",
+  "art": "tench",
+  "entry": "6/45"
+ },
+ {
+  "name": "USS Tigrone",
+  "class": "Tench",
+  "art": "tench",
+  "entry": "3/45"
+ },
+ {
+  "name": "USS Tirante",
+  "class": "Tench",
+  "art": "tench",
+  "entry": "3/45"
+ },
+ {
+  "name": "USS Toro",
+  "class": "Tench",
+  "art": "tench",
+  "entry": "4/45"
+ },
+ {
+  "name": "USS Torsk",
+  "class": "Tench",
+  "art": "tench",
+  "entry": "4/45"
+ },
+ {
+  "name": "USS Trutta",
+  "class": "Tench",
+  "art": "tench",
+  "entry": "3/45"
+ },
+ {
+  "name": "USS Nautilus II",
+  "class": "scheme_17",
+  "art": "scheme_17",
+  "entry": "W/S"
+ },
+ {
+  "name": "USS Seawolf",
+  "class": "ssn21",
+  "art": "ssn21",
+  "entry": "W/S"
+ },
+ {
+  "name": "U-2513",
+  "class": "type_xxi",
+  "art": "type_xxi",
+  "entry": "W/S"
+ },
+ {
+  "name": "HMS Sea Rover",
+  "class": "S2_Br",
+  "art": "s2_br",
+  "entry": "10/44"
+ },
+ {
+  "name": "HMS Sea Scout",
+  "class": "S2_Br",
+  "art": "s2_br",
+  "entry": "4/45"
+ },
+ {
+  "name": "HMS Sirdar",
+  "class": "S2_Br",
+  "art": "s2_br",
+  "entry": "10/44"
+ },
+ {
+  "name": "HMS Sleuth",
+  "class": "S2_Br",
+  "art": "s2_br",
+  "entry": "5/45"
+ },
+ {
+  "name": "HMS Spiteful",
+  "class": "S2_Br",
+  "art": "s2_br",
+  "entry": "10/44"
+ },
+ {
+  "name": "HMS Stoic",
+  "class": "S2_Br",
+  "art": "s2_br",
+  "entry": "10/44"
+ },
+ {
+  "name": "HMS Sturdy",
+  "class": "S2_Br",
+  "art": "s2_br",
+  "entry": "10/44"
+ },
+ {
+  "name": "HMS Solent",
+  "class": "S2_Br",
+  "art": "s2_br",
+  "entry": "5/45"
+ },
+ {
+  "name": "HMS Spark",
+  "class": "S2_Br",
+  "art": "s2_br",
+  "entry": "1/45"
+ },
+ {
+  "name": "HMS Stygian",
+  "class": "S2_Br",
+  "art": "s2_br",
+  "entry": "4/45"
+ },
+ {
+  "name": "HMS Supreme",
+  "class": "S2_Br",
+  "art": "s2_br",
+  "entry": "5/45"
+ },
+ {
+  "name": "HMS Taciturn",
+  "class": "T2_Br",
+  "art": "t2_br",
+  "entry": "5/45"
+ },
+ {
+  "name": "HMS Tantalus",
+  "class": "T2_Br",
+  "art": "t2_br",
+  "entry": "11/44"
+ },
+ {
+  "name": "HMS Tantivy",
+  "class": "T2_Br",
+  "art": "t2_br",
+  "entry": "10/44"
+ },
+ {
+  "name": "HMS Telemachus",
+  "class": "T2_Br",
+  "art": "t2_br",
+  "entry": "10/44"
+ },
+ {
+  "name": "HMS Thorough",
+  "class": "T2_Br",
+  "art": "t2_br",
+  "entry": "5/45"
+ },
+ {
+  "name": "HMS Tiptoe",
+  "class": "T2_Br",
+  "art": "t2_br",
+  "entry": "5/45"
+ },
+ {
+  "name": "HMS Tradewind",
+  "class": "T2_Br",
+  "art": "t2_br",
+  "entry": "1/45"
+ },
+ {
+  "name": "HMS Trenchant",
+  "class": "T2_Br",
+  "art": "t2_br",
+  "entry": "5/45"
+ },
+ {
+  "name": "HMS Trump",
+  "class": "T2_Br",
+  "art": "t2_br",
+  "entry": "5/45"
+ },
+ {
+  "name": "HMS Tudor",
+  "class": "T2_Br",
+  "art": "t2_br",
+  "entry": "3/45"
+ },
+ {
+  "name": "K-VIII",
+  "class": "k-viii",
+  "art": "k-viii",
+  "entry": "W/S"
+ },
+ {
+  "name": "K-X",
+  "class": "k-viii",
+  "art": "k-viii",
+  "entry": "W/S"
+ },
+ {
+  "name": "K-XI",
+  "class": "k-xi",
+  "art": "k-xi",
+  "entry": "2/42"
+ },
+ {
+  "name": "K-XII",
+  "class": "k-xi",
+  "art": "k-xi",
+  "entry": "2/42"
+ },
+ {
+  "name": "K-XIII",
+  "class": "k-xi",
+  "art": "k-xi",
+  "entry": "W/S"
+ },
+ {
+  "name": "K-XIV",
+  "class": "k-xiv",
+  "art": "k-xiv",
+  "entry": "W/S"
+ },
+ {
+  "name": "K-XV",
+  "class": "k-xiv",
+  "art": "k-xiv",
+  "entry": "W/S"
+ },
+ {
+  "name": "K-XVI",
+  "class": "k-xiv",
+  "art": "k-xiv",
+  "entry": "W/S"
+ },
+ {
+  "name": "K-XVII",
+  "class": "k-xiv",
+  "art": "k-xiv",
+  "entry": "W/S"
+ },
+ {
+  "name": "K-XVIII",
+  "class": "k-xiv",
+  "art": "k-xiv",
+  "entry": "1/42"
+ },
+ {
+  "name": "O-16",
+  "class": "o-16",
+  "art": "o-16",
+  "entry": "W/S"
+ },
+ {
+  "name": "O-19",
+  "class": "o-19",
+  "art": "o-19",
+  "entry": "2/42"
+ },
+ {
+  "name": "O-20",
+  "class": "o-19",
+  "art": "o-19",
+  "entry": "W/S"
+ },
+ {
+  "name": "O-21",
+  "class": "o-21",
+  "art": "o-21",
+  "entry": "9/43"
+ },
+ {
+  "name": "O-24",
+  "class": "o-21",
+  "art": "o-21",
+  "entry": "4/45"
+ },
+ {
+  "name": "Zeeleeuw",
+  "class": "balao_du",
+  "art": "balao_du",
+  "entry": "11/44"
+ },
+ {
+  "name": "Zwaardvisch",
+  "class": "t2_du",
+  "art": "t2_du",
+  "entry": "9/44"
+ },
+ {
+  "name": "Surcouf",
+  "class": "surcouf",
+  "art": "surcouf",
+  "entry": "5/42"
+ },
+ {
+  "name": "I-16",
+  "class": "c1",
+  "art": "c1",
+  "entry": "W/S"
+ },
+ {
+  "name": "I-64",
+  "class": "kd4",
+  "art": "kd4",
+  "entry": "W/S"
+ },
+ {
+  "name": "I-183",
+  "class": "kd7",
+  "art": "kd7",
+  "entry": "W/S"
+ },
+ {
+  "name": "RO-41",
+  "class": "k6",
+  "art": "k6",
+  "entry": "W/S"
+ },
+ {
+  "name": "RO-63",
+  "class": "l4",
+  "art": "l4",
+  "entry": "W/S"
+ },
+ {
+  "name": "Tazzoli",
+  "class": "calvi",
+  "art": "calvi",
+  "entry": "7/43"
+ },
+ {
+  "name": "U-168",
+  "class": "type_ixc40",
+  "art": "type_ixc40",
+  "entry": "6/43"
+ },
+ {
+  "name": "U-662",
+  "class": "type_ixd2",
+  "art": "type_ixd2",
+  "entry": "8/43"
+ }
+]
