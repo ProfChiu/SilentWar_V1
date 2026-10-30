@@ -1,5 +1,14 @@
 # Silent War — Progress
 
+## 2026-10-29 (cont.) — git; v1 frozen; Ambush V3 studied for v2
+
+- Accomplished: git repo created (AMBUSH_V3's .gitignore); all 529 files committed as 06d1d54, tagged v1.0 (build 0.15.0).
+  Compared Silent War's screens with AMBUSH_V3's (title, play, Director lesson) to set v2's direction.
+- Decisions (Wan): this build is version 1; v2 starts next because v1 shows too much information at once.
+- Lessons from V3: three-button title; map fills the window, HUD floats; verbs in a ring on the unit, greyed with reasons;
+  one guide voice, one paragraph, "Why?" on demand; a press is a decision; one mission polished before breadth.
+- Next: v2 Gate 0 interview (new folder SIlentWar_V2, engine copied byte-identical, presentation replaced, scope cut).
+
 ## 2026-10-29 — readiness review (v0.15.0, no code changes)
 
 - Accomplished: re-ran everything. Unit suites 2,218 passed / 0 failed (15 files); node --check clean; live
