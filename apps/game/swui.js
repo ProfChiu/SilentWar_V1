@@ -3181,9 +3181,45 @@
       })));
       pane.appendChild(el('p', { class: 'hint', text: I.about.sources }));
       pane.appendChild(el('p', { class: 'hint', text: I.about.rights + ' Version ' + (window.SW_VERSION || '') + '.' }));
+      pane.appendChild(el('div', { class: 'pal-buttons' }, [
+        el('button', { type: 'button', class: 'helm', text: 'Show the title screen', onclick: openTitle })]));
     }
     body.appendChild(pane);
     openSheet('Main menu', 'the Menu button, top left, always brings you back here', body);
+  }
+
+  /* ---------------- the title screen ----------------
+   * Shown in front of the Welcome on every launch: the original publisher's
+   * credit and the private-use notice. Any key or the button dismisses it. */
+  function openTitle() {
+    var T = window.SWIntro.title, old = document.getElementById('titlescreen');
+    if (old) old.remove();
+    function close() {
+      document.removeEventListener('keydown', onKey, true);
+      node.remove();
+    }
+    function onKey(e) {
+      if (e.key === 'Enter' || e.key === ' ' || e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); close(); }
+    }
+    var node = el('div', { id: 'titlescreen', role: 'dialog', 'aria-modal': 'true', 'aria-label': 'Title screen' }, [
+      el('div', { class: 'ts-card' }, [
+        el('img', { class: 'ts-cover', src: '../../Source/images/cover.jpg', alt: 'Silent War box cover, Compass Games' }),
+        el('div', { class: 'ts-body' }, [
+          el('div', { class: 'ts-kicker', text: T.kicker }),
+          el('h1', { class: 'ts-name', text: T.name }),
+          el('div', { class: 'ts-sub', text: T.sub }),
+          el('section', { class: 'ts-box' }, [
+            el('h2', { text: T.original.head }), el('p', { text: T.original.text }), el('p', { class: 'ts-dim', text: T.original.owns })]),
+          el('section', { class: 'ts-box ts-private' }, [
+            el('h2', { text: T.privacy.head }), el('p', { text: T.privacy.text }), el('p', { class: 'ts-dim', text: T.privacy.buy })]),
+          el('div', { class: 'pal-buttons' }, [el('button', { type: 'button', class: 'helm suggest ts-go', text: 'Enter →', onclick: close })]),
+          el('div', { class: 'ts-foot', text: T.foot + ' · build ' + (window.SW_VERSION || '') })
+        ])
+      ])
+    ]);
+    document.addEventListener('keydown', onKey, true);
+    document.body.appendChild(node);
+    node.querySelector('.ts-go').focus();
   }
 
   /* ---------------- briefing and "read your boat" ---------------- */
@@ -4111,7 +4147,10 @@
     /* The Welcome is the title screen, every launch: a first visit starts at
      * the war, a returning player at "Start here" (Resume first). A ?seed=
      * link asks for that game, so it goes straight to it. */
-    if (param('brief') !== '0' && urlSeed() === null) openWelcome(store('sw.briefed') ? 'start' : 'war');
+    if (param('brief') !== '0' && urlSeed() === null) {
+      openWelcome(store('sw.briefed') ? 'start' : 'war');
+      openTitle();
+    }
     window.addEventListener('resize', function () { if (S.view === 'theater') fitMap(); });
   }
 
@@ -4146,6 +4185,7 @@
     teacherVerdict: function (a) { return teacher().verdict(S.engine, a); },
     startDrill: function (id) { startDrill(id); },
     startLesson: function (id) { startLesson(id); },
+    title: function () { openTitle(); },
     debrief: function () { if (S.fleet) openCampaignReport(); else if (isCareer()) openCareerReport(); else openDebrief(); },
     /* Take a pending forced step now instead of after its beat (tests). */
     settle: function () {

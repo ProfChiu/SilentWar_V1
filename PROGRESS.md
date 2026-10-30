@@ -1,5 +1,15 @@
 # Silent War — Progress
 
+## 2026-10-30 — title screen for the audience (v1, build 0.15.0)
+
+- Accomplished: v1 now opens on a title screen in front of the main menu: the Compass Games box cover, the credit
+  (designer Brien J. Miller, developer Stephen Jackson, Compass Games, 2005; rulebook 1.1 © 2012), a "For private use only"
+  notice (unofficial, not affiliated or endorsed, not for sale or distribution), and a "Version 1" label for the evolution talk.
+  Enter, Space, Esc or the button dismisses it; About → "Show the title screen" brings it back. Text in data/sw_intro.js.
+- Decisions: skipped by ?brief=0 and ?seed= links, like the Welcome; the build number stays 0.15.0.
+- Verified: node --check; unit suites 0 failed; first_hour_verify 55 (3 new title checks), phase9 31, learn 233, 0 console errors.
+- Next: v2 Gate 0 interview (unchanged).
+
 ## 2026-10-29 (cont.) — git; v1 frozen; Ambush V3 studied for v2
 
 - Accomplished: git repo created (AMBUSH_V3's .gitignore); all 529 files committed as 06d1d54, tagged v1.0 (build 0.15.0).

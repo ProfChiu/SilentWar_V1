@@ -63,6 +63,14 @@ with sync_playwright() as p:
     pg.on("console", lambda m: errs.append(m.text) if m.type == "error" else None)
     pg.goto(PAGE); pg.wait_for_timeout(900)
 
+    # ---------------- the title screen: publisher credit, private use ----------------
+    ts = pg.inner_text("#titlescreen") if pg.locator("#titlescreen").count() else ""
+    ck("Compass Games" in ts and "Brien J. Miller" in ts, "the title screen credits the original publisher and designer")
+    ck("private use only" in ts.lower(), "...and says this edition is for private use only")
+    pg.screenshot(path=os.path.join(OUT, "fh0_title.png"))
+    pg.click("#titlescreen .ts-go"); pg.wait_for_timeout(200)
+    ck(pg.locator("#titlescreen").count() == 0, "Enter dismisses the title screen, the Welcome is behind it")
+
     # ---------------- first visit: the briefing ----------------
     ck(pg.locator("#overlay.open .welcome").count() == 1, "a first visit opens the Welcome by itself")
     ck(pg.locator("#overlay.open [data-welcome]").count() == 5, "...with its five tabs: the war, what you decide, how it teaches, start, about")
@@ -158,7 +166,7 @@ with sync_playwright() as p:
 
     # ---------------- progress survives a reload ----------------
     done_before = pg.evaluate("JSON.parse(localStorage.getItem('sw.bootcamp'))")
-    pg.reload(); pg.wait_for_timeout(800)
+    pg.reload(); pg.wait_for_timeout(800); pg.keyboard.press("Enter"); pg.wait_for_timeout(150)  # past the title screen
     ck(pg.locator("#overlay.open .brief").count() == 0 and pg.locator("#overlay.open [data-welcome='start'][aria-pressed='true']").count() == 1,
        "the next visit opens the Welcome at Start here, not the briefing")
     pg.evaluate("document.querySelector('#overlay').classList.remove('open')")

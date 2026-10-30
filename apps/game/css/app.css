@@ -975,3 +975,28 @@ body { display: flex; flex-direction: column; }
 .fleet-head .fh-right { flex: 0 1 410px; max-width: 100%; }
 .history-chart { max-width: 100%; height: auto; }
 .fleet-table th { white-space: nowrap; }
+
+/* ---------------- the title screen ---------------- */
+#titlescreen {
+  position: fixed; inset: 0; z-index: 60; display: flex; align-items: center; justify-content: center; padding: 30px;
+  background: radial-gradient(ellipse at 30% 40%, var(--ink-3), var(--ink) 70%);
+}
+.ts-card {
+  display: flex; gap: 34px; align-items: center; max-width: 1080px; width: 100%; max-height: 100%; overflow: auto;
+  color: var(--text);
+}
+.ts-cover { width: 312px; max-width: 34%; height: auto; border-radius: var(--radius); box-shadow: 0 8px 30px rgba(0,0,0,.6); flex: none; }
+.ts-body { flex: 1; min-width: 0; }
+.ts-kicker { color: var(--accent-2); font: 700 13px/1 var(--sans); letter-spacing: .16em; text-transform: uppercase; }
+.ts-name { margin: 8px 0 4px; font: 900 64px/1 var(--stencil); letter-spacing: .04em; text-transform: uppercase; color: #fff; }
+.ts-sub { color: var(--text-dim); font-size: 16px; margin-bottom: 20px; }
+.ts-box { background: var(--ink-2); border: 1px solid var(--line); border-left: 4px solid var(--sea); border-radius: var(--radius);
+  padding: 12px 16px; margin-bottom: 12px; }
+.ts-box h2 { margin: 0 0 6px; font-size: 15px; color: #fff; }
+.ts-box p { margin: 0 0 6px; font-size: 14px; line-height: 1.45; }
+.ts-box p:last-child { margin-bottom: 0; }
+.ts-private { border-left-color: var(--accent); }
+.ts-private h2 { color: var(--accent-2); }
+.ts-dim { color: var(--text-dim); }
+.ts-go { margin-top: 8px; font-size: 16px; padding: 10px 26px; }
+.ts-foot { margin-top: 14px; color: var(--text-dim); font: 12px var(--mono); }

@@ -107,5 +107,26 @@
              'Theodore Roscoe, United States Submarine Operations in World War II (1949).'
   };
 
-  root.SWIntro = { war: WAR, commands: COMMANDS, why: WHY, thinking: THINKING, teaching: TEACHING, about: ABOUT };
+  /* The title screen: who made the original game, and what this edition is. */
+  var TITLE = {
+    kicker: 'A digital study edition · Version 1',
+    name: 'Silent War',
+    sub: 'The United States\' Submarine Campaign Against Imperial Japan, 1941-45',
+    original: {
+      head: 'The original board game',
+      text: 'Silent War is a solitaire board wargame designed by Brien J. Miller and developed by Stephen Jackson. ' +
+            'It is published by Compass Games, LLC: first edition 2005, rulebook 1.1 © 2012 Compass Games, LLC.',
+      owns: 'The game design, map, counters, charts, rules text and box art belong to Compass Games. ' +
+            'This edition follows their printed rulebook; every rule it applies cites the book\'s paragraph.'
+    },
+    privacy: {
+      head: 'For private use only',
+      text: 'This is an unofficial, non-commercial translation made for study and teaching. It is not affiliated with, ' +
+            'licensed or endorsed by Compass Games. It is not for sale, publication or distribution.',
+      buy: 'To play Silent War, get the board game from Compass Games.'
+    },
+    foot: 'Version 1 · September-October 2026 · the first step in this app\'s evolution'
+  };
+
+  root.SWIntro = { war: WAR, commands: COMMANDS, why: WHY, thinking: THINKING, teaching: TEACHING, about: ABOUT, title: TITLE };
 }(typeof module !== 'undefined' && module.exports ? module.exports : (this.window || this)));
