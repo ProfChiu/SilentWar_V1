@@ -3213,7 +3213,7 @@
           el('section', { class: 'ts-box ts-private' }, [
             el('h2', { text: T.privacy.head }), el('p', { text: T.privacy.text }), el('p', { class: 'ts-dim', text: T.privacy.buy })]),
           el('section', { class: 'ts-box ts-vibe' }, [
-            el('h2', { text: T.vibe.head }), el('p', { text: T.vibe.text }), el('p', { class: 'ts-dim', text: T.vibe.check })]),
+            el('h2', { text: T.vibe.head }), el('p', { text: T.vibe.text })]),
           el('div', { class: 'pal-buttons' }, [el('button', { type: 'button', class: 'helm suggest ts-go', text: 'Enter →', onclick: close })]),
           el('div', { class: 'ts-foot', text: T.foot + ' · build ' + (window.SW_VERSION || '') })
         ])
