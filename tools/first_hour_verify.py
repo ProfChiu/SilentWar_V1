@@ -67,6 +67,7 @@ with sync_playwright() as p:
     ts = pg.inner_text("#titlescreen") if pg.locator("#titlescreen").count() else ""
     ck("Compass Games" in ts and "Brien J. Miller" in ts, "the title screen credits the original publisher and designer")
     ck("private use only" in ts.lower(), "...and says this edition is for private use only")
+    ck("vibe coding" in ts.lower(), "...and that it was made with vibe coding")
     pg.screenshot(path=os.path.join(OUT, "fh0_title.png"))
     pg.click("#titlescreen .ts-go"); pg.wait_for_timeout(200)
     ck(pg.locator("#titlescreen").count() == 0, "Enter dismisses the title screen, the Welcome is behind it")

@@ -125,6 +125,13 @@
             'licensed or endorsed by Compass Games. It is not for sale, publication or distribution.',
       buy: 'To play Silent War, get the board game from Compass Games.'
     },
+    vibe: {
+      head: 'Made with vibe coding',
+      text: 'This edition was built by vibe coding: Wan Chiu described what the game should do, in plain language, and an AI ' +
+            'coding assistant (Claude Code, by Anthropic) wrote the program. No line of it was typed by hand.',
+      check: 'The AI\'s work was checked, not trusted: thousands of automated tests compare every table and rule against the ' +
+             'printed rulebook, and the game was played and reviewed by a person at each step.'
+    },
     foot: 'Version 1 · September-October 2026 · the first step in this app\'s evolution'
   };
 

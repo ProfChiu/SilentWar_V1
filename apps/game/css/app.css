@@ -1000,3 +1000,4 @@ body { display: flex; flex-direction: column; }
 .ts-dim { color: var(--text-dim); }
 .ts-go { margin-top: 8px; font-size: 16px; padding: 10px 26px; }
 .ts-foot { margin-top: 14px; color: var(--text-dim); font: 12px var(--mono); }
+.ts-vibe { border-left-color: var(--ok); }
