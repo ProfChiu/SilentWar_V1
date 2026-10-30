@@ -8,7 +8,7 @@
   Enter, Space, Esc or the button dismisses it; About → "Show the title screen" brings it back. Text in data/sw_intro.js.
 - Decisions: skipped by ?brief=0 and ?seed= links, like the Welcome; the build number stays 0.15.0.
 - Verified: node --check; unit suites 0 failed; first_hour_verify 55 (3 new title checks), phase9 31, learn 233, 0 console errors.
-- GitHub: private repo ProfChiu/silent-war-v1 (main + tag v1.0). For the demo: make public, enable Pages, delete repo after.
+- GitHub: private repo ProfChiu/SilentWar_V1 (main + tag v1.0). For the demo: make public, enable Pages, delete repo after.
 - Next: v2 Gate 0 interview (unchanged).
 
 ## 2026-10-29 (cont.) — git; v1 frozen; Ambush V3 studied for v2
