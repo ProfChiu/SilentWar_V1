@@ -129,7 +129,7 @@
       head: 'Made with vibe coding',
       text: 'Tools: Photoshop / Visual Studio / Claude AI.'
     },
-    foot: 'Version 1 · September-October 2026 · first step in this app\'s evolution'
+    updated: 'October 30, 2026'
   };
 
   root.SWIntro = { war: WAR, commands: COMMANDS, why: WHY, thinking: THINKING, teaching: TEACHING, about: ABOUT, title: TITLE };

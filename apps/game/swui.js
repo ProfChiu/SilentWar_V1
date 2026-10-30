@@ -3215,7 +3215,7 @@
           el('section', { class: 'ts-box ts-vibe' }, [
             el('h2', { text: T.vibe.head }), el('p', { text: T.vibe.text })]),
           el('div', { class: 'pal-buttons' }, [el('button', { type: 'button', class: 'helm suggest ts-go', text: 'Enter →', onclick: close })]),
-          el('div', { class: 'ts-foot', text: T.foot + ' · build ' + (window.SW_VERSION || '') })
+          el('div', { class: 'ts-foot', text: 'Version 1 · build ' + (window.SW_VERSION || '') + ' · ' + T.updated })
         ])
       ])
     ]);
