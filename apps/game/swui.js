@@ -3211,7 +3211,7 @@
           el('section', { class: 'ts-box' }, [
             el('h2', { text: T.original.head }), el('p', { text: T.original.text }), el('p', { class: 'ts-dim', text: T.original.owns })]),
           el('section', { class: 'ts-box ts-private' }, [
-            el('h2', { text: T.privacy.head }), el('p', { text: T.privacy.text }), el('p', { class: 'ts-dim', text: T.privacy.buy })]),
+            el('h2', { text: T.privacy.head }), el('p', { text: T.privacy.text })]),
           el('section', { class: 'ts-box ts-vibe' }, [
             el('h2', { text: T.vibe.head }), el('p', { text: T.vibe.text })]),
           el('div', { class: 'pal-buttons' }, [el('button', { type: 'button', class: 'helm suggest ts-go', text: 'Enter →', onclick: close })]),

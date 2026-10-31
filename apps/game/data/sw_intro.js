@@ -122,8 +122,7 @@
     privacy: {
       head: 'For private use only',
       text: 'Unofficial, non-commercial translation for study and teaching. Not affiliated with, licensed or endorsed by ' +
-            'Compass Games. Not for sale, publication or distribution.',
-      buy: 'Want to play Silent War? Get the board game from Compass Games.'
+            'Compass Games. Not for sale, publication or distribution.'
     },
     vibe: {
       head: 'Made with vibe coding',
