@@ -380,6 +380,17 @@
     nav.appendChild(el('button', {
       type: 'button', onclick: function () { openRules(null); }
     }, [el('span', { text: 'Rules' }), el('kbd', { text: 'r' })]));
+    /* Map zoom: "Whole map" is the furthest out; the others are multiples of it. */
+    var maxRel = ZOOM_MAX_K / fitK();
+    nav.appendChild(el('label', { class: 'zoom-pick', title: 'Map zoom (the mouse wheel zooms too)' }, [
+      el('span', { text: 'Zoom' }),
+      el('select', { id: 'zoom-select', onchange: function (e) { if (e.target.value !== 'cur') setZoomLevel(Number(e.target.value)); } },
+        [el('option', { value: 'cur', hidden: true, text: '' })].concat(ZOOM_LEVELS.map(function (z) {
+          return el('option', { value: String(z), disabled: z > maxRel + 0.01 ? true : null,
+            text: z === 1 ? 'Whole map' : Math.round(z * 100) + '%' });
+        })))
+    ]));
+    syncZoomSelect();
     /* Explicit two-way choices, each button naming what it selects (the Ambush
      * lesson: a toggle that shows the current state reads as the action). */
     var view = el('div', { class: 'seg', style: 'margin:6px 4px;', title: 'How much detail the screen shows' }, [
@@ -542,12 +553,54 @@
     go('oparea', true);
   }
 
+  /* The furthest the map zooms out: the whole sheet just fits the window.
+   * Zoom levels in the selector are multiples of this. */
+  var ZOOM_MAX_K = 2;
+  var ZOOM_LEVELS = [1, 1.5, 2, 3, 4, 6];
+  function fitK() {
+    var c = $('#theater-canvas');
+    /* While the map view is hidden the canvas has no size: use the last fit. */
+    if (!c || !c.clientWidth) return theater.fitK || theater.k;
+    return (theater.fitK = Math.min(c.clientWidth / Map_.imageSize.w, c.clientHeight / Map_.imageSize.h));
+  }
+  /* Keep the sheet's edges at the window's edges: a sheet smaller than the
+   * window on an axis stays wholly inside it; a larger one never shows past
+   * its edge. */
+  function clampPan() {
+    var c = $('#theater-canvas');
+    if (!c || !c.clientWidth) return;
+    function axis(pos, view, size) {
+      return size <= view ? Math.min(view - size, Math.max(0, pos)) : Math.min(0, Math.max(view - size, pos));
+    }
+    theater.x = axis(theater.x, c.clientWidth, Map_.imageSize.w * theater.k);
+    theater.y = axis(theater.y, c.clientHeight, Map_.imageSize.h * theater.k);
+  }
+  function syncZoomSelect() {
+    var sel = $('#zoom-select');
+    if (!sel) return;
+    var rel = theater.k / fitK(), hit = null;
+    ZOOM_LEVELS.forEach(function (z) { if (Math.abs(rel - z) / z < 0.02) hit = z; });
+    var cur = sel.querySelector('option[value="cur"]');
+    cur.hidden = hit !== null;
+    cur.textContent = Math.round(rel * 100) + '%';
+    sel.value = hit === null ? 'cur' : String(hit);
+  }
+  function setZoomLevel(z) {
+    if (S.view !== 'theater') go('theater', true);
+    var c = $('#theater-canvas');
+    if (!c || !c.clientWidth) return;
+    if (z === 1) { fitMap(); return; }
+    zoomAt(Math.min(ZOOM_MAX_K, fitK() * z) / theater.k, c.clientWidth / 2, c.clientHeight / 2);
+  }
+
   function applyTransform() {
     var w = $('#theater-world');
     if (!w) return;
+    clampPan();
     w.style.transform = 'translate(' + theater.x + 'px,' + theater.y + 'px) scale(' + theater.k + ')';
     /* Markers on the map keep a constant on-screen size whatever the zoom. */
     w.style.setProperty('--inv', String(1 / theater.k));
+    syncZoomSelect();
   }
   /* Glide the camera so world point (px, py) sits in the middle of the free
    * part of the map (right of the palette), at zoom k. */
@@ -559,7 +612,7 @@
       var pr = pal.getBoundingClientRect(), cr = c.getBoundingClientRect();
       if (pr.right > cr.left && pr.left < cr.left + cr.width / 2) left = Math.min(cr.width / 2, pr.right - cr.left);
     }
-    theater.k = k;
+    theater.k = k = Math.min(ZOOM_MAX_K, Math.max(fitK(), k));
     theater.x = left + (c.clientWidth - left) / 2 - px * k;
     theater.y = c.clientHeight / 2 - py * k;
     if (glide && SPEEDS[S.speed].step) {
@@ -576,7 +629,7 @@
     zoomAt(f, c.clientWidth / 2, c.clientHeight / 2);
   }
   function zoomAt(f, cx, cy) {
-    var k2 = Math.min(2, Math.max(0.08, theater.k * f));
+    var k2 = Math.min(ZOOM_MAX_K, Math.max(fitK(), theater.k * f));
     var ratio = k2 / theater.k;
     theater.x = cx - (cx - theater.x) * ratio;
     theater.y = cy - (cy - theater.y) * ratio;

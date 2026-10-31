@@ -1001,3 +1001,8 @@ body { display: flex; flex-direction: column; }
 .ts-go { margin-top: 8px; font-size: 16px; padding: 10px 26px; }
 .ts-foot { margin-top: 14px; color: var(--text-dim); font: 12px var(--mono); }
 .ts-vibe { border-left-color: var(--ok); }
+
+/* Map zoom selector, top row */
+.zoom-pick { display: flex; align-items: center; gap: 5px; margin: 0 4px; font-size: 11px; color: var(--text-dim); }
+.zoom-pick select { background: var(--ink); color: var(--text); border: 1px solid var(--line); border-radius: var(--radius);
+  font-size: 11px; padding: 3px 4px; }

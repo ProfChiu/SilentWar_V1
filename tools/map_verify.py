@@ -53,6 +53,24 @@ with sync_playwright() as p:
     pg.goto(PAGE + "?brief=0&detail=full&coach=0")
     pg.wait_for_timeout(900)
 
+    # ---------------- zoom: floor at the whole sheet, selector in the top row ----------------
+    WORLD = "n => n.style.transform"
+    def scale(): return float(pg.eval_on_selector("#theater-world", WORLD).split("scale(")[1].rstrip(")"))
+    ck(pg.locator("#viewnav #zoom-select").count() == 1, "a zoom selector sits in the top row of buttons")
+    cb = box(pg, "#theater-canvas")
+    fit = min(cb["w"] / 4342, cb["h"] / 3300)
+    pg.mouse.move(cb["x"] + cb["w"] / 2, cb["y"] + cb["h"] / 2)
+    for _ in range(12): pg.mouse.wheel(0, 300); pg.wait_for_timeout(20)
+    ck(abs(scale() - fit) / fit < 0.01, f"the wheel zooms out no further than the whole sheet ({scale():.3f} vs {fit:.3f})")
+    ck(pg.eval_on_selector("#zoom-select", "s => s.selectedOptions[0].textContent") == "Whole map", "...and the selector then reads Whole map")
+    pg.select_option("#zoom-select", "3"); pg.wait_for_timeout(150)
+    ck(abs(scale() - 3 * fit) / fit < 0.03, "choosing 300% zooms to three times the whole-sheet size")
+    t = pg.eval_on_selector("#theater-world", WORLD)
+    x, y = [float(v) for v in t.split("translate(")[1].split(")")[0].replace("px", "").split(",")]
+    ck(x <= 0.5 and y <= 0.5 and x >= cb["w"] - 4342 * scale() - 0.5 and y >= cb["h"] - 3300 * scale() - 0.5,
+       "zoomed in, the sheet still covers the window: no space past its edge")
+    pg.select_option("#zoom-select", "1"); pg.wait_for_timeout(150)
+
     # ---------------- Demo ----------------
     ck(pg.locator("#palette").is_visible(), "the controls live in a floating palette")
     ck(pg.locator("#palette #transport button.primary").is_visible(), "the Play button is in the palette")
