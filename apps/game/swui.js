@@ -380,14 +380,14 @@
     nav.appendChild(el('button', {
       type: 'button', onclick: function () { openRules(null); }
     }, [el('span', { text: 'Rules' }), el('kbd', { text: 'r' })]));
-    /* Map zoom: "Whole map" is the furthest out; the others are multiples of it. */
+    /* Map zoom: "Fill window" is the furthest out; the others are multiples of it. */
     var maxRel = ZOOM_MAX_K / fitK();
     nav.appendChild(el('label', { class: 'zoom-pick', title: 'Map zoom (the mouse wheel zooms too)' }, [
       el('span', { text: 'Zoom' }),
       el('select', { id: 'zoom-select', onchange: function (e) { if (e.target.value !== 'cur') setZoomLevel(Number(e.target.value)); } },
         [el('option', { value: 'cur', hidden: true, text: '' })].concat(ZOOM_LEVELS.map(function (z) {
           return el('option', { value: String(z), disabled: z > maxRel + 0.01 ? true : null,
-            text: z === 1 ? 'Whole map' : Math.round(z * 100) + '%' });
+            text: z === 1 ? 'Fill window' : Math.round(z * 100) + '%' });
         })))
     ]));
     syncZoomSelect();
@@ -553,19 +553,18 @@
     go('oparea', true);
   }
 
-  /* The furthest the map zooms out: the whole sheet just fits the window.
-   * Zoom levels in the selector are multiples of this. */
+  /* The furthest the map zooms out: the sheet fills the window edge to edge,
+   * with no empty band beside it (the rest is reached by dragging). Zoom
+   * levels in the selector are multiples of this. */
   var ZOOM_MAX_K = 2;
   var ZOOM_LEVELS = [1, 1.5, 2, 3, 4, 6];
   function fitK() {
     var c = $('#theater-canvas');
     /* While the map view is hidden the canvas has no size: use the last fit. */
     if (!c || !c.clientWidth) return theater.fitK || theater.k;
-    return (theater.fitK = Math.min(c.clientWidth / Map_.imageSize.w, c.clientHeight / Map_.imageSize.h));
+    return (theater.fitK = Math.max(c.clientWidth / Map_.imageSize.w, c.clientHeight / Map_.imageSize.h));
   }
-  /* Keep the sheet's edges at the window's edges: a sheet smaller than the
-   * window on an axis stays wholly inside it; a larger one never shows past
-   * its edge. */
+  /* Keep the sheet's edges at the window's edges: it never shows past them. */
   function clampPan() {
     var c = $('#theater-canvas');
     if (!c || !c.clientWidth) return;
@@ -639,7 +638,7 @@
   function fitMap() {
     var c = $('#theater-canvas');
     if (!c) return;
-    theater.k = Math.min(c.clientWidth / Map_.imageSize.w, c.clientHeight / Map_.imageSize.h);
+    theater.k = fitK();
     theater.x = (c.clientWidth - Map_.imageSize.w * theater.k) / 2;
     theater.y = (c.clientHeight - Map_.imageSize.h * theater.k) / 2;
     applyTransform();

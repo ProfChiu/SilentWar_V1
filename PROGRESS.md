@@ -7,8 +7,8 @@
   notice (unofficial, not affiliated or endorsed, not for sale or distribution), and a "Version 1" label for the evolution talk.
   Enter, Space, Esc or the button dismisses it; About → "Show the title screen" brings it back. Text in data/sw_intro.js.
 - Title screen also says it was made with vibe coding (tools: Photoshop / Visual Studio / Claude AI).
-- Map zoom: zooming out stops at the whole sheet; the sheet can't be dragged past its edges; a Zoom selector (Whole map,
-  150-600%) in the top button row. map_verify +5 checks.
+- Map zoom: zooming out stops when the sheet fills the window (no empty bands; Wan's call); the sheet can't be dragged
+  past its edges; a Zoom selector (Fill window, 150-600%) in the top button row. map_verify +5 checks.
 - Decisions: skipped by ?brief=0 and ?seed= links, like the Welcome; the build number stays 0.15.0.
 - Verified: node --check; unit suites 0 failed; first_hour_verify 55 (3 new title checks), phase9 31, learn 233, 0 console errors.
 - GitHub: private repo ProfChiu/SilentWar_V1 (main + tag v1.0). For the demo: make public, enable Pages, delete repo after.
